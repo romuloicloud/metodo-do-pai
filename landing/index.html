@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Método do Pai — O tutor de IA que preparou meu filho para o Pedro II e FAETEC. Aprovado nas duas! Oferta de lançamento por R$97/mês.">
+    <meta name="theme-color" content="#111621">
+    <title>Método do Pai — Preparação Pedro II e FAETEC com IA</title>
+    <link rel="icon" type="image/png" href="/assets/app-icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --primary: #164bb6;
+            --primary-dark: #0e2f73;
+            --gold: #C5A059;
+            --gold-light: #D4AF37;
+            --bg-dark: #111621;
+            --surface-dark: #1a2130;
+            --surface-light: #232b3e;
+            --text-white: #f0f0f5;
+            --text-muted: #8892a8;
+            --danger: #e74c3c;
+            --success: #2ecc71;
+        }
+
+        body {
+            font-family: 'Lexend', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-white);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ========== HERO ========== */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 80px 24px 60px;
+            background: linear-gradient(180deg, var(--primary-dark) 0%, var(--bg-dark) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 30% 20%, rgba(22, 75, 182, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 70% 80%, rgba(197, 160, 89, 0.15) 0%, transparent 50%);
+            animation: float 20s ease-in-out infinite;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-30px) rotate(3deg);
+            }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--bg-dark);
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 6px 16px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 24px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                box-shadow: 0 0 0 0 rgba(197, 160, 89, 0.4);
+            }
+
+            50% {
+                box-shadow: 0 0 0 12px rgba(197, 160, 89, 0);
+            }
+        }
+
+        .hero h1 {
+            font-size: clamp(2.2rem, 6vw, 3.8rem);
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: var(--gold);
+        }
+
+        .hero p {
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            margin-bottom: 36px;
+            max-width: 560px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 48px;
+        }
+
+        .hero-stat h3 {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--gold);
+        }
+
+        .hero-stat p {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        /* ========== BUTTONS ========== */
+        .btn {
+            display: inline-block;
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-family: 'Lexend', sans-serif;
+            font-weight: 700;
+            font-size: 1.05rem;
+            cursor: pointer;
+            border: none;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+            color: var(--bg-dark);
+            box-shadow: 0 4px 24px rgba(197, 160, 89, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(197, 160, 89, 0.5);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid var(--gold);
+            color: var(--gold);
+        }
+
+        .btn-outline:hover {
+            background: var(--gold);
+            color: var(--bg-dark);
+        }
+
+        /* ========== DOR / PROBLEMA ========== */
+        .pain-section {
+            padding: 100px 24px;
+            background: var(--bg-dark);
+        }
+
+        .pain-section .container {
+            text-align: center;
+        }
+
+        .pain-section h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+
+        .pain-section h2 span {
+            color: var(--danger);
+        }
+
+        .pain-section>.container>p {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            max-width: 600px;
+            margin: 0 auto 48px;
+        }
+
+        .pain-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .pain-card {
+            background: var(--surface-dark);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 16px;
+            padding: 32px 24px;
+            text-align: left;
+        }
+
+        .pain-card .icon {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+        }
+
+        .pain-card h4 {
+            font-weight: 700;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        .pain-card p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* ========== SOLUÇÃO / FEATURES ========== */
+        .features-section {
+            padding: 100px 24px;
+            background: linear-gradient(180deg, var(--surface-dark) 0%, var(--bg-dark) 100%);
+        }
+
+        .features-section h2 {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 12px;
+        }
+
+        .features-section h2 span {
+            color: var(--gold);
+        }
+
+        .features-section>.container>p {
+            text-align: center;
+            color: var(--text-muted);
+            max-width: 550px;
+            margin: 0 auto 56px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 28px;
+        }
+
+        .feature-card {
+            background: var(--surface-light);
+            border-radius: 20px;
+            padding: 32px 24px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .feature-card .material-icons-round {
+            font-size: 2.4rem;
+            color: var(--gold);
+            margin-bottom: 16px;
+        }
+
+        .feature-card h4 {
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .feature-card p {
+            color: var(--text-muted);
+            font-size: 0.88rem;
+        }
+
+        /* ========== PROVA SOCIAL ========== */
+        .social-proof {
+            padding: 100px 24px;
+            background: var(--bg-dark);
+            text-align: center;
+        }
+
+        .social-proof h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 48px;
+        }
+
+        .social-proof h2 span {
+            color: var(--gold);
+        }
+
+        .testimonial {
+            max-width: 700px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, var(--primary-dark), var(--surface-dark));
+            border-radius: 24px;
+            padding: 48px 36px;
+            border: 1px solid rgba(197, 160, 89, 0.2);
+            position: relative;
+        }
+
+        .testimonial::before {
+            content: '"';
+            position: absolute;
+            top: -10px;
+            left: 24px;
+            font-size: 6rem;
+            color: var(--gold);
+            opacity: 0.3;
+            line-height: 1;
+        }
+
+        .testimonial p {
+            font-size: 1.12rem;
+            line-height: 1.8;
+            margin-bottom: 24px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        .testimonial-author img {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            border: 3px solid var(--gold);
+            object-fit: cover;
+        }
+
+        .testimonial-author div {
+            text-align: left;
+        }
+
+        .testimonial-author h5 {
+            font-weight: 700;
+            font-size: 1rem;
+        }
+
+        .testimonial-author span {
+            color: var(--gold);
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .proof-badges {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .proof-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--surface-dark);
+            padding: 12px 20px;
+            border-radius: 12px;
+        }
+
+        .proof-badge .material-icons-round {
+            color: var(--success);
+        }
+
+        .proof-badge span {
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        /* ========== PRICING ========== */
+        .pricing-section {
+            padding: 100px 24px;
+            background: linear-gradient(180deg, var(--bg-dark) 0%, var(--primary-dark) 100%);
+            text-align: center;
+        }
+
+        .pricing-section h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 12px;
+        }
+
+        .pricing-section>.container>p {
+            color: var(--text-muted);
+            margin-bottom: 48px;
+        }
+
+        /* Timer */
+        .countdown-container {
+            margin-bottom: 48px;
+        }
+
+        .countdown-label {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--danger);
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .countdown {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        .countdown-item {
+            background: var(--surface-dark);
+            border-radius: 12px;
+            padding: 16px 20px;
+            min-width: 72px;
+            border: 1px solid rgba(231, 76, 60, 0.3);
+        }
+
+        .countdown-item .number {
+            font-size: 2rem;
+            font-weight: 900;
+            color: white;
+            display: block;
+        }
+
+        .countdown-item .label {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Price cards */
+        .price-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .price-card {
+            background: var(--surface-dark);
+            border-radius: 24px;
+            padding: 40px 28px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            position: relative;
+        }
+
+        .price-card.featured {
+            border: 2px solid var(--gold);
+            background: linear-gradient(165deg, var(--surface-light) 0%, var(--surface-dark) 100%);
+        }
+
+        .price-card.featured::before {
+            content: '🔥 MAIS POPULAR';
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--gold);
+            color: var(--bg-dark);
+            font-size: 0.7rem;
+            font-weight: 800;
+            padding: 4px 16px;
+            border-radius: 50px;
+            letter-spacing: 1px;
+        }
+
+        .price-card h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .price-card .price-old {
+            font-size: 1rem;
+            color: var(--text-muted);
+            text-decoration: line-through;
+        }
+
+        .price-card .price {
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--gold);
+            line-height: 1.1;
+        }
+
+        .price-card .price small {
+            font-size: 1rem;
+            font-weight: 400;
+            color: var(--text-muted);
+        }
+
+        .price-card .price-period {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 24px;
+        }
+
+        .price-card ul {
+            list-style: none;
+            text-align: left;
+            margin-bottom: 28px;
+        }
+
+        .price-card ul li {
+            padding: 8px 0;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .price-card ul li .material-icons-round {
+            font-size: 1.1rem;
+            color: var(--success);
+        }
+
+        /* ========== FAQ ========== */
+        .faq-section {
+            padding: 100px 24px;
+            background: var(--bg-dark);
+        }
+
+        .faq-section h2 {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 48px;
+        }
+
+        .faq-list {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 20px 0;
+        }
+
+        .faq-question {
+            width: 100%;
+            background: none;
+            border: none;
+            color: white;
+            font-family: 'Lexend', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0;
+        }
+
+        .faq-question .material-icons-round {
+            transition: transform 0.3s;
+            color: var(--gold);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.3s;
+            color: var(--text-muted);
+            font-size: 0.92rem;
+            line-height: 1.7;
+        }
+
+        .faq-item.open .faq-answer {
+            max-height: 200px;
+            padding-top: 12px;
+        }
+
+        .faq-item.open .faq-question .material-icons-round {
+            transform: rotate(180deg);
+        }
+
+        /* ========== FINAL CTA ========== */
+        .final-cta {
+            padding: 100px 24px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            text-align: center;
+        }
+
+        .final-cta h2 {
+            font-size: 2.2rem;
+            font-weight: 900;
+            margin-bottom: 16px;
+        }
+
+        .final-cta p {
+            color: rgba(255, 255, 255, 0.8);
+            max-width: 500px;
+            margin: 0 auto 32px;
+        }
+
+        .final-cta .slogan {
+            font-style: italic;
+            font-size: 1.2rem;
+            color: var(--gold);
+            margin-bottom: 36px;
+            font-weight: 600;
+        }
+
+        /* ========== FOOTER ========== */
+        footer {
+            background: var(--surface-dark);
+            padding: 40px 24px;
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        footer a {
+            color: var(--gold);
+        }
+
+        /* ========== RESPONSIVE ========== */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 60px 20px 40px;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .hero-stats {
+                gap: 24px;
+            }
+
+            .hero-stat h3 {
+                font-size: 1.5rem;
+            }
+
+            .pain-cards,
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .price-cards {
+                grid-template-columns: 1fr;
+                max-width: 360px;
+            }
+
+            .testimonial {
+                padding: 32px 20px;
+            }
+
+            .countdown-item {
+                min-width: 60px;
+                padding: 12px 14px;
+            }
+
+            .countdown-item .number {
+                font-size: 1.5rem;
+            }
+
+            .proof-badges {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ====== HERO ====== -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="hero-badge">🚀 Lançamento — Oferta por tempo limitado</div>
+            <h1>O método que aprovou meu filho no <span>Pedro II</span> e na <span>FAETEC</span></h1>
+            <p>Um tutor de inteligência artificial que estuda COM o seu filho. Questões reais, explicações como
+                conversa, e um ranking que motiva.</p>
+            <a href="#preco" class="btn btn-primary">QUERO O MÉTODO →</a>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <h3>2</h3>
+                    <p>Aprovações</p>
+                </div>
+                <div class="hero-stat">
+                    <h3>500+</h3>
+                    <p>Questões reais</p>
+                </div>
+                <div class="hero-stat">
+                    <h3>24h</h3>
+                    <p>IA disponível</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== DOR / PROBLEMA ====== -->
+    <section class="pain-section" id="problema">
+        <div class="container">
+            <h2>Seu filho está <span>preparado</span> para a prova?</h2>
+            <p>Milhares de crianças competem por poucas vagas. Sem preparo, a ansiedade e frustração tomam conta.</p>
+            <div class="pain-cards">
+                <div class="pain-card">
+                    <div class="icon">😰</div>
+                    <h4>Ansiedade e pressão</h4>
+                    <p>A criança fica insegura sem saber o que estudar. Os pais ficam perdidos sem saber como ajudar.
+                    </p>
+                </div>
+                <div class="pain-card">
+                    <div class="icon">📚</div>
+                    <h4>Material genérico</h4>
+                    <p>Cursinhos caros com conteúdo que não foca no edital. Tempo perdido estudando o que não cai na
+                        prova.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="icon">🎯</div>
+                    <h4>Sem direcionamento</h4>
+                    <p>Não saber quais são os pontos fracos do filho. Sem diagnóstico, o estudo vira loteria.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== FUNCIONALIDADES ====== -->
+    <section class="features-section" id="funcionalidades">
+        <div class="container">
+            <h2>Conheça o <span>Método do Pai</span></h2>
+            <p>Um app completo que transforma o estudo numa jornada inteligente e motivadora.</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="material-icons-round">psychology</span>
+                    <h4>Diagnóstico Inteligente</h4>
+                    <p>Identifica os pontos fracos do aluno em minutos. Matemática ou Português — o app sabe por onde
+                        começar.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="material-icons-round">school</span>
+                    <h4>Teoria + Exercícios</h4>
+                    <p>Aulas explicadas com linguagem de pai pra filho. Depois, questões com dificuldade progressiva.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <span class="material-icons-round">quiz</span>
+                    <h4>Questões de Provas Reais</h4>
+                    <p>Banco com questões de provas anteriores do Pedro II e FAETEC. Treinamento com o que realmente
+                        cai.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="material-icons-round">smart_toy</span>
+                    <h4>IA que Explica</h4>
+                    <p>Errou? A inteligência artificial explica o porquê com linguagem simples. Como ter um tutor
+                        particular 24h.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="material-icons-round">emoji_events</span>
+                    <h4>Ranking e Conquistas</h4>
+                    <p>Competição saudável entre amigos. Badges, pontos e ranking que motivam a estudar mais.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="material-icons-round">insights</span>
+                    <h4>Painel dos Pais</h4>
+                    <p>Acompanhe o progresso do seu filho. Veja acertos, erros e evolução por matéria em tempo real.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== PROVA SOCIAL ====== -->
+    <section class="social-proof" id="resultado">
+        <div class="container">
+            <h2>Uma história <span>real</span> de aprovação</h2>
+            <div class="testimonial">
+                <p>"Quando decidi preparar meu filho Pedro para o Pedro II e FAETEC, todo mundo disse que era difícil
+                    demais. Criei um método de estudo baseado em disciplina, dedicação e muita conversa. Transformei
+                    esse método em um app com inteligência artificial. O resultado? <strong>Pedro foi aprovado nas DUAS
+                        provas em 2025.</strong> Agora, quero que outros pais tenham essa mesma chance."</p>
+                <div class="testimonial-author">
+                    <img src="https://api.dicebear.com/7.x/initials/svg?seed=RP&backgroundColor=164bb6" alt="Rômulo">
+                    <div>
+                        <h5>Rômulo — O Pai</h5>
+                        <span>Criador do Método do Pai</span>
+                    </div>
+                </div>
+            </div>
+            <div class="proof-badges">
+                <div class="proof-badge">
+                    <span class="material-icons-round">verified</span>
+                    <span>Aprovado Pedro II 2025</span>
+                </div>
+                <div class="proof-badge">
+                    <span class="material-icons-round">verified</span>
+                    <span>Aprovado FAETEC 2025</span>
+                </div>
+                <div class="proof-badge">
+                    <span class="material-icons-round">verified</span>
+                    <span>500+ questões reais</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== PREÇO ====== -->
+    <section class="pricing-section" id="preco">
+        <div class="container">
+            <h2>Invista no futuro do seu filho</h2>
+            <p>Menos que um cursinho. Mais eficiente que qualquer material genérico.</p>
+
+            <div class="countdown-container" id="countdown-container">
+                <div class="countdown-label">⏰ Oferta de lançamento termina em:</div>
+                <div class="countdown" id="countdown">
+                    <div class="countdown-item">
+                        <span class="number" id="hours">48</span>
+                        <span class="label">horas</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="number" id="minutes">00</span>
+                        <span class="label">min</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="number" id="seconds">00</span>
+                        <span class="label">seg</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="price-cards">
+                <div class="price-card">
+                    <h3>Plano Mensal</h3>
+                    <div class="price-old">R$ 197/mês</div>
+                    <div class="price">R$ 197<small>/mês</small></div>
+                    <div class="price-period">Após o período promocional</div>
+                    <ul>
+                        <li><span class="material-icons-round">check_circle</span> Acesso completo ao app</li>
+                        <li><span class="material-icons-round">check_circle</span> IA tutor 24h</li>
+                        <li><span class="material-icons-round">check_circle</span> Provas reais Pedro II/FAETEC</li>
+                        <li><span class="material-icons-round">check_circle</span> Painel de acompanhamento</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline" onclick="checkout('mensal_normal')">ASSINAR</a>
+                </div>
+                <div class="price-card featured">
+                    <h3>Lançamento 48h</h3>
+                    <div class="price-old">De R$ 197/mês</div>
+                    <div class="price">R$ 97<small>/mês</small></div>
+                    <div class="price-period">50% OFF — só nas primeiras 48h!</div>
+                    <ul>
+                        <li><span class="material-icons-round">check_circle</span> Tudo do plano mensal</li>
+                        <li><span class="material-icons-round">check_circle</span> Desconto vitalício</li>
+                        <li><span class="material-icons-round">check_circle</span> Suporte prioritário</li>
+                        <li><span class="material-icons-round">check_circle</span> Novos conteúdos primeiro</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary" onclick="checkout('lancamento')">GARANTIR MINHA VAGA →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== FAQ ====== -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Para qual idade funciona?
+                        <span class="material-icons-round">expand_more</span>
+                    </button>
+                    <div class="faq-answer">O Método do Pai foi criado para alunos do 5º ao 6º ano (10-12 anos) que
+                        desejam ingressar no Colégio Pedro II ou na FAETEC. O app adapta a linguagem para essa faixa
+                        etária.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Preciso instalar algum app?
+                        <span class="material-icons-round">expand_more</span>
+                    </button>
+                    <div class="faq-answer">Não! O Método do Pai funciona direto no navegador do celular ou computador.
+                        Basta acessar o link, fazer login, e começar a estudar. Você pode salvar na tela inicial do
+                        celular como se fosse um app.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Como funciona a IA tutor?
+                        <span class="material-icons-round">expand_more</span>
+                    </button>
+                    <div class="faq-answer">Quando o aluno erra uma questão, a inteligência artificial explica o porquê
+                        do erro e ensina o conceito correto, usando linguagem simples e exemplos do dia a dia — como um
+                        tutor particular disponível 24 horas.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Posso cancelar a qualquer momento?
+                        <span class="material-icons-round">expand_more</span>
+                    </button>
+                    <div class="faq-answer">Sim! Sem fidelidade e sem burocracia. Você pode cancelar sua assinatura a
+                        qualquer momento diretamente pelo painel.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        As questões são de provas reais?
+                        <span class="material-icons-round">expand_more</span>
+                    </button>
+                    <div class="faq-answer">Sim! Nosso banco de questões inclui provas anteriores do Colégio Pedro II e
+                        da FAETEC, organizadas por matéria e tema, para que o aluno treine com o que realmente cai na
+                        prova.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== FINAL CTA ====== -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>O futuro do seu filho começa agora</h2>
+            <div class="slogan">"Esforço, dedicação até o momento de glória."</div>
+            <p>Não deixe para depois. A preparação certa hoje garante a aprovação amanhã.</p>
+            <a href="#preco" class="btn btn-primary">QUERO O MÉTODO DO PAI →</a>
+        </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Método do Pai. Todos os direitos reservados.</p>
+            <p style="margin-top: 8px;">Dúvidas? <a
+                    href="mailto:contato@metododopai.com.br">contato@metododopai.com.br</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // ===== COUNTDOWN TIMER 48H =====
+        function startCountdown() {
+            const STORAGE_KEY = 'metodo_pai_launch_end';
+            let endTime = localStorage.getItem(STORAGE_KEY);
+
+            if (!endTime) {
+                // First visit: set 48h from now
+                const end = new Date();
+                end.setHours(end.getHours() + 48);
+                endTime = end.getTime().toString();
+                localStorage.setItem(STORAGE_KEY, endTime);
+            }
+
+            const target = parseInt(endTime);
+
+            function update() {
+                const now = Date.now();
+                const diff = target - now;
+
+                if (diff <= 0) {
+                    document.getElementById('hours').textContent = '00';
+                    document.getElementById('minutes').textContent = '00';
+                    document.getElementById('seconds').textContent = '00';
+                    document.getElementById('countdown-container').querySelector('.countdown-label').textContent = '⏰ Oferta encerrada!';
+                    return;
+                }
+
+                const hours = Math.floor(diff / (1000 * 60 * 60));
+                const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+                document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+                document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+                document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+            }
+
+            update();
+            setInterval(update, 1000);
+        }
+
+        startCountdown();
+
+        // ===== FAQ TOGGLE =====
+        function toggleFaq(btn) {
+            const item = btn.closest('.faq-item');
+            item.classList.toggle('open');
+        }
+
+        // ===== STRIPE CHECKOUT =====
+        // TODO: Replace with your actual Stripe checkout links
+        function checkout(plan) {
+            // When you set up Stripe, replace these URLs with your Stripe Payment Links
+            const links = {
+                'lancamento': 'https://buy.stripe.com/SEU_LINK_LANCAMENTO',
+                'mensal_normal': 'https://buy.stripe.com/SEU_LINK_MENSAL',
+            };
+
+            const url = links[plan];
+            if (url && !url.includes('SEU_LINK')) {
+                window.open(url, '_blank');
+            } else {
+                alert('Em breve! O pagamento será ativado no lançamento oficial.');
+            }
+        }
+
+        // ===== SMOOTH SCROLL =====
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
