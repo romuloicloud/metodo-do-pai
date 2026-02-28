@@ -36,6 +36,8 @@ const Dashboard: React.FC<{ setView?: (view: View) => void }> = ({ setView }) =>
     const [alertMessage, setAlertMessage] = useState<string | null>(null);
     const [avatarUrl, setAvatarUrl] = useState<string | null>(null);
     const [userId, setUserId] = useState<string>('');
+    const [isEditingName, setIsEditingName] = useState(false);
+    const [editName, setEditName] = useState('');
 
     useEffect(() => {
         const fetchData = async () => {
@@ -63,6 +65,21 @@ const Dashboard: React.FC<{ setView?: (view: View) => void }> = ({ setView }) =>
         };
         fetchData();
     }, []);
+
+    const handleSaveName = async () => {
+        const trimmed = editName.trim();
+        if (!trimmed || trimmed === userName) {
+            setIsEditingName(false);
+            return;
+        }
+        const { error } = await supabase.auth.updateUser({
+            data: { full_name: trimmed }
+        });
+        if (!error) {
+            setUserName(trimmed);
+        }
+        setIsEditingName(false);
+    };
 
     return (
         <div className="bg-background-light dark:bg-background-dark min-h-full">
@@ -93,8 +110,38 @@ const Dashboard: React.FC<{ setView?: (view: View) => void }> = ({ setView }) =>
                         currentAvatarUrl={avatarUrl}
                         onAvatarChange={(newUrl) => setAvatarUrl(newUrl)}
                     />
-                    <div>
-                        <h2 className="text-xl font-bold text-primary dark:text-blue-400">{userName}</h2>
+                    <div className="flex-1 min-w-0">
+                        {isEditingName ? (
+                            <div className="flex items-center gap-2">
+                                <input
+                                    type="text"
+                                    value={editName}
+                                    onChange={(e) => setEditName(e.target.value)}
+                                    onKeyDown={(e) => {
+                                        if (e.key === 'Enter') handleSaveName();
+                                        if (e.key === 'Escape') setIsEditingName(false);
+                                    }}
+                                    autoFocus
+                                    maxLength={20}
+                                    className="text-lg font-bold text-primary dark:text-blue-400 bg-white dark:bg-slate-800 border border-primary/30 rounded-lg px-3 py-1 w-full outline-none focus:border-primary"
+                                    placeholder="Seu nome"
+                                />
+                                <button onClick={handleSaveName} className="p-1.5 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors">
+                                    <span className="material-icons-round text-sm">check</span>
+                                </button>
+                                <button onClick={() => setIsEditingName(false)} className="p-1.5 bg-slate-400 text-white rounded-lg hover:bg-slate-500 transition-colors">
+                                    <span className="material-icons-round text-sm">close</span>
+                                </button>
+                            </div>
+                        ) : (
+                            <button
+                                onClick={() => { setEditName(userName); setIsEditingName(true); }}
+                                className="flex items-center gap-2 group"
+                            >
+                                <h2 className="text-xl font-bold text-primary dark:text-blue-400 truncate">{userName}</h2>
+                                <span className="material-icons-round text-sm text-slate-400 opacity-0 group-hover:opacity-100 transition-opacity">edit</span>
+                            </button>
+                        )}
                         <div className="flex gap-2 mt-1">
                             <span className="text-xs font-bold bg-primary/10 text-primary px-2 py-0.5 rounded-full">{mockUser.targetSchool}</span>
                             <span className="text-xs font-bold bg-accent-gold/10 text-accent-gold px-2 py-0.5 rounded-full">FAETEC</span>
