@@ -6,7 +6,7 @@ import { syllabus } from './syllabusData';
 
 // A chave de API é obtida a partir de variáveis de ambiente,
 // conforme as boas práticas de segurança. Isso corrige o erro que causava a tela preta.
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.GEMINI_API_KEY || (typeof process !== 'undefined' && process.env?.GEMINI_API_KEY) || '' });
 
 const editalContentPlaceholder = `
 CONTEÚDO PROGRAMÁTICO - COLÉGO PEDRO II / FAETEC (6º ANO)
