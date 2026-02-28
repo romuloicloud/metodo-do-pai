@@ -87,11 +87,20 @@ const LessonView: React.FC<{ lesson: TheoryLesson; onBack: () => void; setView: 
                     Voltar para os Tópicos
                 </button>
                 <h2 className="text-2xl font-bold mb-1 text-slate-900 dark:text-white">{lesson.topic}</h2>
-                <p className="text-sm text-slate-500 mb-6">Hora de praticar o que aprendeu!</p>
+                <p className="text-sm text-slate-500 mb-6">{lesson.explanation ? 'Estude a teoria e depois pratique!' : 'Hora de praticar o que aprendeu!'}</p>
             </header>
 
             <main className="flex-1 overflow-y-auto p-5 pt-6 pb-40">
-                {/* Theory Removed from here, now displayed in Modal before */}
+                {/* Teoria */}
+                {lesson.explanation && lesson.explanation.length > 0 && (
+                    <div className="mb-8 bg-indigo-50 dark:bg-indigo-900/20 border border-indigo-200 dark:border-indigo-800 rounded-2xl p-5">
+                        <div className="flex items-center gap-2 mb-3">
+                            <span className="text-2xl">📖</span>
+                            <h3 className="font-bold text-lg text-indigo-700 dark:text-indigo-300">Teoria</h3>
+                        </div>
+                        <p className="text-sm text-slate-700 dark:text-slate-200 leading-relaxed whitespace-pre-wrap">{lesson.explanation}</p>
+                    </div>
+                )}
 
                 <h3 className="font-bold text-lg mb-4 text-slate-900 dark:text-white">Questões de Fixação</h3>
                 <div className="space-y-6">
