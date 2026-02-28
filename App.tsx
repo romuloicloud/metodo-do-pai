@@ -42,16 +42,20 @@ const App: React.FC = () => {
     return () => subscription.unsubscribe();
   }, []);
 
-  // Verificar diagnóstico após login
+  // Verificar diagnóstico APENAS uma vez (no login inicial)
+  const diagnosticChecked = React.useRef(false);
   useEffect(() => {
-    if (session?.user && !checkingDiagnostic) {
-      setCheckingDiagnostic(true);
+    if (session?.user && !diagnosticChecked.current) {
+      diagnosticChecked.current = true;
       hasCompletedDiagnostic(session.user.id).then(completed => {
-        if (!completed) {
+        if (!completed && currentView === 'DASHBOARD') {
           setCurrentView('DIAGNOSTIC_WELCOME');
         }
-        setCheckingDiagnostic(false);
       });
+    }
+    // Reset quando faz logout
+    if (!session) {
+      diagnosticChecked.current = false;
     }
   }, [session]);
 
