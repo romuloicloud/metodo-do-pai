@@ -1,0 +1,18 @@
+{
+    "name": "Método do Pai",
+    "short_name": "Método do Pai",
+    "description": "Sua preparação inteligente para Pedro II e FAETEC",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#111621",
+    "theme_color": "#111621",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/assets/app-icon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
