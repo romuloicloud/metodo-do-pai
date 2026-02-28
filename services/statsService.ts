@@ -131,8 +131,67 @@ export const saveResult = async (userId: string, subject: string, topic: string,
 };
 
 /**
- * Retorna os dados do ranking (atualmente mockado).
+ * Busca o ranking real dos alunos no Supabase.
+ * Calcula XP como: (total de acertos) * 10
  */
-export const getRankingData = (): RankEntry[] => {
-    return mockRanking;
+export const getRankingData = async (): Promise<RankEntry[]> => {
+    // 1. Buscar todas as stats de todos os alunos
+    const { data: allStats, error: statsError } = await supabase
+        .from('student_stats')
+        .select('user_id, score, total_questions');
+
+    if (statsError || !allStats) {
+        console.error('Erro ao buscar ranking:', statsError);
+        return [];
+    }
+
+    // 2. Agregar pontos por user_id
+    const userScores: Record<string, { score: number; total: number }> = {};
+    for (const row of allStats) {
+        if (!userScores[row.user_id]) {
+            userScores[row.user_id] = { score: 0, total: 0 };
+        }
+        userScores[row.user_id].score += row.score ?? 0;
+        userScores[row.user_id].total += row.total_questions ?? 0;
+    }
+
+    // 3. Buscar nomes e avatares dos usuários via tabela profiles (se existir) ou auth
+    const userIds = Object.keys(userScores);
+
+    // Tentar buscar de profiles primeiro
+    const { data: profiles } = await supabase
+        .from('profiles')
+        .select('id, full_name, avatar_url')
+        .in('id', userIds);
+
+    const profileMap: Record<string, { name: string; avatar: string }> = {};
+    if (profiles) {
+        for (const p of profiles) {
+            profileMap[p.id] = {
+                name: p.full_name || 'Aluno',
+                avatar: p.avatar_url || '',
+            };
+        }
+    }
+
+    // 4. Montar ranking ordenado por XP
+    const entries: RankEntry[] = userIds.map((uid, _i) => {
+        const xp = (userScores[uid].score) * 10;
+        const profile = profileMap[uid];
+        return {
+            rank: 0,
+            name: profile?.name || 'Aluno',
+            xp,
+            avatarUrl: profile?.avatar || `https://api.dicebear.com/7.x/initials/svg?seed=${profile?.name || uid.slice(0, 4)}`,
+            trend: 'same' as const,
+        };
+    });
+
+    // Ordenar por XP (maior primeiro)
+    entries.sort((a, b) => b.xp - a.xp);
+
+    // Atribuir posições
+    entries.forEach((e, i) => { e.rank = i + 1; });
+
+    return entries;
 };

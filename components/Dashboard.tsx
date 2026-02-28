@@ -77,6 +77,15 @@ const Dashboard: React.FC<{ setView?: (view: View) => void }> = ({ setView }) =>
         });
         if (!error) {
             setUserName(trimmed);
+            // Sincronizar com tabela profiles para o ranking
+            if (userId) {
+                await supabase.from('profiles').upsert({
+                    id: userId,
+                    full_name: trimmed,
+                    avatar_url: avatarUrl || null,
+                    updated_at: new Date().toISOString(),
+                }, { onConflict: 'id' });
+            }
         }
         setIsEditingName(false);
     };
