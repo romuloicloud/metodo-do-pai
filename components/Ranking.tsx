@@ -27,7 +27,7 @@ const Podium: React.FC<{ topThree: RankEntry[] }> = ({ topThree }) => {
             {p1 && (
                 <div className="flex flex-col items-center">
                     <div className="relative mb-2 scale-110">
-                        <img alt="Avatar 1" className="w-18 h-18 rounded-full border-4 border-custom-gold object-cover shadow-lg bg-slate-700" src={p1.avatarUrl} />
+                        <img alt="Avatar 1" className="w-16 h-16 rounded-full border-4 border-custom-gold object-cover shadow-lg bg-slate-700" src={p1.avatarUrl} />
                         <div className="absolute -top-3 left-1/2 -translate-x-1/2 text-custom-gold animate-bounce">
                             <CrownIcon />
                         </div>
