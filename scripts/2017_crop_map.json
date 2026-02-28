@@ -1,0 +1,70 @@
+{
+    "year": "2017",
+    "dpi": 400,
+    "crops": {
+        "7": {
+            "page": 4,
+            "top": 0.465,
+            "bottom": 0.635,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Tirinha Armandinho - onça-pintada no zoo (3 quadrinhos)"
+        },
+        "9": {
+            "page": 5,
+            "top": 0.315,
+            "bottom": 0.505,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Tirinha Armandinho - diferença humanos e animais"
+        },
+        "11": {
+            "page": 6,
+            "top": 0.185,
+            "bottom": 0.355,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Tirinha Hagar O Horrivel - Dr. Zook dieta (4 quadrinhos)"
+        },
+        "14": {
+            "page": 7,
+            "top": 0.155,
+            "bottom": 0.48,
+            "left": 0.18,
+            "right": 0.72,
+            "description": "Jarros de barro com medidas de 0cm a 80cm"
+        },
+        "17": {
+            "page": 8,
+            "top": 0.42,
+            "bottom": 0.575,
+            "left": 0.08,
+            "right": 0.92,
+            "description": "Copos de agua - escala musical DO RE MI FA SOL LA SI"
+        },
+        "18": {
+            "page": 9,
+            "top": 0.21,
+            "bottom": 0.38,
+            "left": 0.10,
+            "right": 0.90,
+            "description": "Tabela reciclagem - latinhas, copos, embalagens com icones"
+        },
+        "20a": {
+            "page": 10,
+            "top": 0.19,
+            "bottom": 0.40,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Emblemas CPII - foto do escudo e formação circular (fotos)"
+        },
+        "20b": {
+            "page": 10,
+            "top": 0.48,
+            "bottom": 0.745,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Emblemas CPII - malha quadriculada e formação circular (desenhos)"
+        }
+    }
+}

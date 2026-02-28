@@ -1,0 +1,46 @@
+{
+    "year": "2018",
+    "dpi": 300,
+    "crops": {
+        "9": {
+            "page": 4,
+            "top": 0.69,
+            "bottom": 0.93,
+            "left": 0.06,
+            "right": 0.95,
+            "description": "Tirinha Os Passarinhos - Texto 3 (mentira)"
+        },
+        "14": {
+            "page": 7,
+            "top": 0.14,
+            "bottom": 0.32,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Tabela de precos cantina (sucos, vitaminas, sanduiches)"
+        },
+        "16": {
+            "page": 8,
+            "top": 0.17,
+            "bottom": 0.30,
+            "left": 0.22,
+            "right": 0.62,
+            "description": "Planta estacionamento com quadrados 64m2 e 121m2"
+        },
+        "17": {
+            "page": 8,
+            "top": 0.58,
+            "bottom": 0.80,
+            "left": 0.18,
+            "right": 0.82,
+            "description": "Tabela eleicao Gremio Estudantil (votos e porcentagens)"
+        },
+        "19": {
+            "page": 9,
+            "top": 0.42,
+            "bottom": 0.50,
+            "left": 0.10,
+            "right": 0.90,
+            "description": "Cartoes PEDRO nas 5 caixas"
+        }
+    }
+}

@@ -1,0 +1,293 @@
+[
+    {
+        "numero_original": 1,
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Texto",
+        "texto_base": "TEXTO 1: O último carnaval da vitória (...)",
+        "enunciado": "No primeiro parágrafo do Texto 1, o narrador faz uma comparação para explicar a experiência de viver um acontecimento pela última vez. Essa comparação foi feita entre o carnaval e",
+        "alternativas": {
+            "A": "um lanche com os primos.",
+            "B": "o fim de uma brincadeira.",
+            "C": "o uso do apito.",
+            "D": "o dia de Natal."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 2,
+        "materia": "Língua Portuguesa",
+        "topico": "Semântica",
+        "texto_base": "Leia o fragmento de texto a seguir:\n“...como se nós, as crianças, vivêssemos numa vida distraída ao sabor da escola e da casa da avó Agnette.” (linhas 9-10)",
+        "enunciado": "Assinale a alternativa em que a expressão destacada tem o mesmo sentido da palavra grifada no trecho acima.",
+        "alternativas": {
+            "A": "O menino vivia sua rotina conforme as datas festivas.",
+            "B": "O menino não gostava do tempero do arroz doce.",
+            "C": "A gasosa era familiar ao paladar das crianças.",
+            "D": "A comida da avó tinha um gosto inesquecível."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 3,
+        "materia": "Língua Portuguesa",
+        "topico": "Foco Narrativo",
+        "texto_base": "O texto O último carnaval da vitória é contado por Ondjaki, escritor angolano que vivenciou os fatos narrados.",
+        "enunciado": "Encontramos evidências dessa participação do narrador em:",
+        "alternativas": {
+            "A": "“Nós, as crianças, vivíamos num tempo fora do tempo, sem nunca sabermos dos calendários de verdade“ (linhas 6-7)",
+            "B": "“Na televisão passava o grande desfile do Carnaval da Vitória” (linhas 14-15)",
+            "C": "“Esse que tinha o poder de apitar fazia a vez daqueles que, no desfile de verdade, vão à frente a marcar o ritmo do grupo.” (linhas 27-28)",
+            "D": "“Isto foi em fins de março. No último Carnaval da Vitória.” (linha 44)"
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 4,
+        "materia": "Língua Portuguesa",
+        "topico": "Coesão Textual",
+        "texto_base": "“Eu tinha esquecido de lhe entregar o apito.” (linha 25)",
+        "enunciado": "O pronome destacado refere-se",
+        "alternativas": {
+            "A": "à avó Agnette.",
+            "B": "à avó Catarina.",
+            "C": "à mana Tchissola.",
+            "D": "ao primo do narrador."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 5,
+        "materia": "Língua Portuguesa",
+        "topico": "Efeito de Sentido",
+        "texto_base": "“Isto foi em fins de março. No último Carnaval da Vitória.” (linha 44)",
+        "enunciado": "O trecho acima traz informações que se repetem algumas vezes, ao longo do Texto 1. Essa repetição produz o efeito de",
+        "alternativas": {
+            "A": "demonstrar que o narrador acompanhava com atenção o calendário de festividades.",
+            "B": "problematizar o fim do Carnaval da Vitória para a comunidade do narrador.",
+            "C": "evitar que o leitor perca a referência temporal dos fatos narrados.",
+            "D": "enfatizar a importância dos eventos para o narrador."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 6,
+        "materia": "Língua Portuguesa",
+        "topico": "Gênero Textual",
+        "texto_base": "TEXTO 2: Os direitos das crianças segundo Ruth Rocha",
+        "enunciado": "O Texto 2 pode ser considerado um poema por possuir",
+        "alternativas": {
+            "A": "narrador, personagem e cenário.",
+            "B": "ações, consequências e ensinamentos.",
+            "C": "linguagem expressiva, rimas e estrofes.",
+            "D": "protagonista, vilão e personagens secundários."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 7,
+        "materia": "Língua Portuguesa",
+        "topico": "Figuras de Linguagem",
+        "texto_base": "“Bola, bola, bola, bola!” (verso 20)",
+        "enunciado": "No verso acima destacado, a repetição do substantivo",
+        "alternativas": {
+            "A": "procura imitar o som do bem-te-vi cantando.",
+            "B": "serve para fazer rima com a palavra “panela”.",
+            "C": "retoma as já mencionadas “bolhas de sabão”.",
+            "D": "enfatiza as diferentes brincadeiras feitas com uma bola."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 8,
+        "materia": "Língua Portuguesa",
+        "topico": "Intertextualidade",
+        "texto_base": "Na última estrofe do poema, Ruth Rocha afirma que “toda, toda criança tem direito a ser feliz!”. Já no Texto 1, O último carnaval da vitória, lemos um relato de fatos ocorridos na vida de um menino.",
+        "enunciado": "Encontramos um trecho do Texto 1 que revela a felicidade dessa criança em:",
+        "alternativas": {
+            "A": "“Mas quando acontecia era um dia rápido, porque os dias mágicos passam depressa deixando marcas fundas na nossa memória, que alguns chamam também de coração.” (linhas 12-14)",
+            "B": "“As nossas mães faziam de propósito para nos deixar lá na casa da avó Nhé no dia do Carnaval da Vitória.” (linhas 18-19)",
+            "C": "“Eu não gostava de arroz doce, a mana Tchissola atacou o meu pires.” (linha 22)",
+            "D": "“Fiquei atrapalhado, pousei o copo com o restinho da gasosa aguada do batismo.” (linhas 34-35)"
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 9,
+        "materia": "Língua Portuguesa",
+        "topico": "Leitura de Imagem/Tirinha",
+        "texto_base": "TEXTO 3: Tirinha Ziraldo (Menino Maluquinho)",
+        "enunciado": "A tirinha de Ziraldo tem como personagem principal o Menino Maluquinho, que se caracteriza por suas peraltices. O fato de o Menino usar uma panela na cabeça",
+        "imageUrl": "/assets/exams/2025_q9.png",
+        "alternativas": {
+            "A": "indica o aprendizado incompleto do menino quanto às regras do que vestir.",
+            "B": "reforça a diversão como elemento de destaque na vida dessa criança.",
+            "C": "revela que o menino tem dificuldades com as regras da escola que frequenta.",
+            "D": "mostra a desobediência do menino em relação às orientações feitas por seu pai."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 10,
+        "materia": "Língua Portuguesa",
+        "topico": "Polissemia",
+        "texto_base": "TEXTO 3: Tirinha Ziraldo (Menino Maluquinho)",
+        "enunciado": "A palavra normal, no contexto da tirinha, tem um sentido diferente para cada personagem. Para o pai e para o menino, respectivamente, um dia normal na escola é um dia de",
+        "imageUrl": "/assets/exams/2025_q10.png",
+        "alternativas": {
+            "A": "divertir-se/ estudar.",
+            "B": "aprender / estudar.",
+            "C": "aprender/ brincar.",
+            "D": "brincar / rir."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 11,
+        "materia": "Matemática",
+        "topico": "Frações e Tabelas",
+        "texto_base": "Uma professora do 5º ano da escola onde Pedrinho estuda fez uma pesquisa em sua turma de 30 estudantes para saber quanto tempo por dia as crianças usavam o celular. Os resultados estão apresentados em frações do total de estudantes na tabela a seguir:\n1 hora: 2/5\n2 horas e 30 minutos: 25/50\n5 horas: 1/10",
+        "enunciado": "Quando a professora mostrou os resultados, a turma descobriu que",
+        "imageUrl": "/assets/exams/2025_q11.png",
+        "alternativas": {
+            "A": "a maior parte dos estudantes usa o celular por 1 hora por dia.",
+            "B": "a maior parte dos estudantes usa o celular por 5 horas por dia.",
+            "C": "todos os estudantes usam o celular durante o mesmo tempo diário.",
+            "D": "a maior parte dos estudantes usa o celular por 2 horas e 30 minutos por dia."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 12,
+        "materia": "Matemática",
+        "topico": "Porcentagem e Gráficos",
+        "texto_base": "[GRÁFICO DO TEMPO MÉDIO DE USO DE APLICATIVOS DE JOCA]\nMincraft: Valor inferido da visualização do gráfico (não explícito no texto extraído, mas necessário para resolução)",
+        "enunciado": "De acordo com o gráfico, o percentual que representa o tempo médio que Joca utiliza o aplicativo Minecraft por dia é de",
+        "imageUrl": "/assets/exams/2025_q12.png",
+        "alternativas": {
+            "A": "90%.",
+            "B": "45%.",
+            "C": "36%.",
+            "D": "30%."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 13,
+        "materia": "Matemática",
+        "topico": "Operações com Tempo",
+        "texto_base": "Estudos recentes mostram que o uso excessivo de telas traz graves prejuízos... SBP recomenda:\n6 a 10 anos: 2 horas\n11 a 18 anos: 3 horas\nJoca tem 12 anos. Considere o tempo médio de uso diário dos aplicativos por Joca apresentado no gráfico [GRÁFICO].",
+        "enunciado": "Sabendo que ele tem 12 anos, está correto dizer, em relação à recomendação da SBP, que",
+        "imageUrl": "/assets/exams/2025_q13.png",
+        "alternativas": {
+            "A": "ainda faltam 1h e 10 minutos para atingir o máximo recomendado.",
+            "B": "ultrapassou em 1h e 10 minutos o tempo máximo recomendado.",
+            "C": "ainda faltam 50 minutos para atingir o máximo recomendado.",
+            "D": "ultrapassou em 40 minutos o tempo máximo recomendado."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 14,
+        "materia": "Matemática",
+        "topico": "Expressões Numéricas e Volume",
+        "texto_base": "Ana... decidiu construir uma impressionante montanha de cubos de vidro cinza [IMAGEM DE UMA PIRÂMIDE/MONTANHA DE BLOCOS].",
+        "enunciado": "A expressão numérica que NÃO representa o total de cubos de vidro utilizados na montanha é",
+        "imageUrl": "/assets/exams/2025_q14.png",
+        "alternativas": {
+            "A": "(5 × 8 × 5) + (5 × 7 × 3) + (5 × 5 × 2)",
+            "B": "(5 × 1 × 5) + (5 × 2 × 8) + (5 × 5 × 10)",
+            "C": "(5 × 8 × 10) + (5 × 1 × 5) + (5 × 2 × 2)",
+            "D": "(5 × 8 × 10) − (5 × 1 × 5) − (5 × 2 × 2)"
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 15,
+        "materia": "Matemática",
+        "topico": "Sequências Lógicas",
+        "texto_base": "Pedrinho organizou seus carrinhos... usando sempre a mesma ordem: um amarelo, um verde, um marrom e um vermelho até o último deles.\nTotal de 167 carrinhos.",
+        "enunciado": "Sabendo que ele tem 167 carrinhos, o último carrinho que foi guardado na estante era",
+        "alternativas": {
+            "A": "verde.",
+            "B": "marrom.",
+            "C": "amarelo.",
+            "D": "vermelho."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 16,
+        "materia": "Matemática",
+        "topico": "Frações e Geometria",
+        "texto_base": "Bia está brincando com blocos de empilhar. Peça inteira (A) e divisões (B=1/2, C=1/3, D=1/4, E=1/6, F=1/8, G=1/12).\n3ª camada: 3 blocos que se alinham perfeitamente na base (soma = 1).",
+        "enunciado": "Nessa terceira camada, os blocos utilizados por Bia foram",
+        "imageUrl": "/assets/exams/2025_q16.png",
+        "alternativas": {
+            "A": "B, C e E",
+            "B": "B, C e G",
+            "C": "B, D e E",
+            "D": "C, D e E"
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 17,
+        "materia": "Matemática",
+        "topico": "Multiplicação e Tabelas",
+        "texto_base": "Jogo Conquista de Territórios. Tabuleiro 10x10. Cada território = linha x coluna.\nTabela de números escolhidos:\nBia: 7 (1ª rodada), 36 (2ª rodada)\nPedrinho: 25 (1ª rodada), 24 (2ª rodada)",
+        "enunciado": "O número escolhido que possibilitou marcar mais territórios no tabuleiro foi",
+        "imageUrl": "/assets/exams/2025_q17.png",
+        "alternativas": {
+            "A": "36.",
+            "B": "25.",
+            "C": "24.",
+            "D": "7."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 18,
+        "materia": "Matemática",
+        "topico": "Operações com Decimais",
+        "texto_base": "Campanha para compra de jogos. Pesquisa:\nBola de futebol: 2 unidades, R$ 71,24 cada\nLivros para colorir: 10 unidades, R$ 29,46 cada\nJogo Twister: 3 unidades, R$ 50,08 cada",
+        "enunciado": "O valor total que a escola precisará arrecadar para a compra de todos os itens selecionados é",
+        "imageUrl": "/assets/exams/2025_q18.png",
+        "alternativas": {
+            "A": "R$ 150,78.",
+            "B": "R$ 349,56.",
+            "C": "R$ 486,34.",
+            "D": "R$ 587,32."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 19,
+        "materia": "Matemática",
+        "topico": "Plano Cartesiano e Deslocamento",
+        "texto_base": "Pique-bandeira. Coordenadas iniciais:\nPedrinho: (6, 1), Joca: (3, 1), Ana: (5, 4), Bia: (8, 2).\nMovimentações para todos: 1m direita -> 2m baixo -> 3m direita -> 1ms cima -> 1m direita.",
+        "enunciado": "Partindo dos pontos citados e após todos fazerem as movimentações descritas, o jogador que terminou dentro da área da bandeira foi",
+        "imageUrl": "/assets/exams/2025_q19.png",
+        "alternativas": {
+            "A": "Ana.",
+            "B": "Bia.",
+            "C": "Joca.",
+            "D": "Pedrinho."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 20,
+        "materia": "Matemática",
+        "topico": "Área de Figuras Planas",
+        "texto_base": "A figura a seguir representa esse campo desenhado sobre uma malha quadriculada. Cada quadrado da malha possui área de 1 m². [IMAGEM DA MALHA DO CAMPO]",
+        "enunciado": "A área do jogo, sem contar os espaços reservados para as bandeiras, é de",
+        "imageUrl": "/assets/exams/2025_q20.png",
+        "alternativas": {
+            "A": "51 m².",
+            "B": "50 m².",
+            "C": "48 m².",
+            "D": "46 m²."
+        },
+        "gabarito_sugerido": null
+    }
+]

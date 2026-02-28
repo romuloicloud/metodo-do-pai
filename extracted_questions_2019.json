@@ -1,0 +1,342 @@
+[
+    {
+        "numero_original": 1,
+        "exam_id": "cp2-2019",
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Texto",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO I: GUILHERME AUGUSTO ARAÚJO FERNANDES (Fragmento)",
+        "enunciado": "De acordo com o Texto I, apesar de o personagem Guilherme Augusto não saber o que é memória, no fim da história ele entendeu que",
+        "alternativas": [
+            "os adultos confiam na memória dos idosos.",
+            "os idosos dependem de contato com objetos.",
+            "a perda da memória é um problema irreversível.",
+            "os objetos podem despertar lembranças importantes."
+        ],
+        "correct_option_index": 3,
+        "image_url": null
+    },
+    {
+        "numero_original": 2,
+        "exam_id": "cp2-2019",
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Texto",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO I: GUILHERME AUGUSTO ARAÚJO FERNANDES (Fragmento)",
+        "enunciado": "Assinale a alternativa que traz uma memória de Guilherme Augusto.",
+        "alternativas": [
+            "“[...] lembrou, com tristeza, de seu irmão mais velho [...].” (linha 50)",
+            "“Ele lembrou-se, com tristeza, da medalha que seu avô lhe tinha dado [...]”. (linha 37)",
+            "“Contou a Guilherme Augusto sobre um ovinho azul, todo pintado, que havia encontrado uma vez, dentro de um ninho, no jardim da casa de sua tia.” (linhas 45-47)",
+            "“[...] lembrou da vez em que mostrara uma para sua irmãzinha, que rira às gargalhadas, com a boca cheia de mingau.” (linhas 52-53)"
+        ],
+        "correct_option_index": 1,
+        "image_url": null
+    },
+    {
+        "numero_original": 3,
+        "exam_id": "cp2-2019",
+        "materia": "Língua Portuguesa",
+        "topico": "Coesão Textual",
+        "dificuldade": "Média",
+        "texto_base": "“Ela sorriu para a marionete e lembrou da vez em que mostrara uma para sua irmãzinha, que rira às gargalhadas, com a boca cheia de mingau.” (linhas 52-53)",
+        "enunciado": "O termo destacado acima (uma) poderia ser corretamente acompanhado pela palavra",
+        "alternativas": [
+            "boca.",
+            "irmãzinha.",
+            "marionete.",
+            "gargalhada."
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 4,
+        "exam_id": "cp2-2019",
+        "materia": "Língua Portuguesa",
+        "topico": "Coesão Textual",
+        "dificuldade": "Média",
+        "texto_base": "“Ele a chamava de Dona Antônia e contava-lhe todos os seus segredos.” (linha 7)",
+        "enunciado": "O termo substituído pelo pronome “lhe” na frase acima é",
+        "alternativas": [
+            "Guilherme.",
+            "Dona Antônia.",
+            "todos.",
+            "segredos."
+        ],
+        "correct_option_index": 1,
+        "image_url": null
+    },
+    {
+        "numero_original": 5,
+        "exam_id": "cp2-2019",
+        "materia": "Língua Portuguesa",
+        "topico": "Intertextualidade",
+        "dificuldade": "Média",
+        "texto_base": "No poema (Texto II), são criados vários sentidos para o verbo “guardar”.",
+        "enunciado": "Assinale a alternativa em que a atitude de Guilherme (Texto I) corresponde a um desses sentidos.",
+        "alternativas": [
+            "Enxergar o valor afetivo dos objetos.",
+            "Escrever poemas para guardar memórias.",
+            "Vigiar os hábitos dos moradores do asilo.",
+            "Esconder os objetos numa antiga caixa de sapatos."
+        ],
+        "correct_option_index": 0,
+        "image_url": null
+    },
+    {
+        "numero_original": 6,
+        "exam_id": "cp2-2019",
+        "materia": "Língua Portuguesa",
+        "topico": "Compreensão de Texto",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO II: GUARDAR (Antonio Cicero)",
+        "enunciado": "No texto de Antonio Cicero, fica claro que os poemas são escritos, publicados, declamados para “guardar”",
+        "alternativas": [
+            "o que está nos cofres.",
+            "o que deve ser trancado.",
+            "os pássaros que não voam.",
+            "o que não se quer esquecer."
+        ],
+        "correct_option_index": 3,
+        "image_url": null
+    },
+    {
+        "numero_original": 7,
+        "exam_id": "cp2-2019",
+        "materia": "Língua Portuguesa",
+        "topico": "Intertextualidade",
+        "dificuldade": "Média",
+        "texto_base": "TEXTO III: A QUEDA DO CÉU (Davi Kopenawa)",
+        "enunciado": "Lendo o Texto III, podemos compreender que",
+        "alternativas": [
+            "os yanomamis preservam sua memória de uma forma diferente da dos homens brancos.",
+            "na opinião do xamã, brancos e índios yanomamis não preservam suas memórias.",
+            "os yanomamis preservam sua memória de forma idêntica à dos homens brancos.",
+            "a opinião do xamã é a de que ninguém precisa preservar sua memória."
+        ],
+        "correct_option_index": 0,
+        "image_url": null
+    },
+    {
+        "numero_original": 8,
+        "exam_id": "cp2-2019",
+        "materia": "Língua Portuguesa",
+        "topico": "Semântica",
+        "dificuldade": "Fácil",
+        "texto_base": "“Oae! É isso! As coisas são mesmo como eu as pintei nessa pele de papel!” (linhas 20 - 21)",
+        "enunciado": "No trecho acima, a interjeição “Oae!” é usada para expressar",
+        "alternativas": [
+            "lembrança de algo de que se havia esquecido.",
+            "alegria por entrar em contato com algo novo.",
+            "surpresa diante de algo que não se sabia.",
+            "reconhecimento de algo que já se sabia."
+        ],
+        "correct_option_index": 0,
+        "image_url": null
+    },
+    {
+        "numero_original": 9,
+        "exam_id": "cp2-2019",
+        "materia": "Língua Portuguesa",
+        "topico": "Linguagem Mista",
+        "dificuldade": "Média",
+        "texto_base": "“Os brancos, por outro lado, não param de querer desenhar suas palavras.” (linha 12)",
+        "enunciado": "Assinale a alternativa que apresenta o sentido do trecho destacado.",
+        "alternativas": [
+            "Os brancos têm o hábito de fazer pinturas.",
+            "Os índios e os brancos guardam suas memórias.",
+            "Os brancos escrevem para registrar suas memórias.",
+            "Os índios yanomamis nunca aprenderão a escrever."
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 10,
+        "exam_id": "cp2-2019",
+        "materia": "Língua Portuguesa",
+        "topico": "Linguagem Mista",
+        "dificuldade": "Média",
+        "texto_base": "Charge de Laerte sobre o incêndio no Museu Nacional.",
+        "enunciado": "Laerte usa duas diferentes representações de dinossauros, relacionadas aos termos “passado” e “futuro”, para fazer a seguinte reflexão:",
+        "alternativas": [
+            "As pessoas deveriam olhar mais para o futuro, pois o passado não é importante.",
+            "A ausência de cuidado com nosso passado demonstra a dificuldade em construirmos nosso futuro.",
+            "Os dinossauros queimados no Museu Nacional poderão ser substituídos facilmente por outros no futuro.",
+            "A humanidade no futuro corre o risco de ser destruída pelos dinossauros como eles foram destruídos no passado."
+        ],
+        "correct_option_index": 1,
+        "image_url": "/assets/exams/2019_q10.png"
+    },
+    {
+        "numero_original": 11,
+        "exam_id": "cp2-2019",
+        "materia": "Matemática",
+        "topico": "Grandezas e Medidas (Tempo)",
+        "dificuldade": "Média",
+        "texto_base": "Equipe organizou todo o conteúdo em 1h40min de filme, que foi dividido em 6 capítulos de mesma duração.",
+        "enunciado": "Assim, cada capítulo teve a exata duração de 16 minutos e",
+        "alternativas": [
+            "6 segundos.",
+            "7 segundos.",
+            "20 segundos.",
+            "40 segundos."
+        ],
+        "correct_option_index": 3,
+        "image_url": null
+    },
+    {
+        "numero_original": 12,
+        "exam_id": "cp2-2019",
+        "materia": "Matemática",
+        "topico": "Tratamento de Informação",
+        "dificuldade": "Difícil",
+        "texto_base": "Infográfico de indígenas por região em 2010. Total Brasil: 896,7 mil. Norte (342,8), Nordeste (232,7), Centro-Oeste (143,4), Sudeste (99,1).",
+        "enunciado": "Por um erro de impressão, o quantitativo referente à região Sul não apareceu. A diferença entre a quantidade de indígenas das regiões Centro-Oeste e Sul era de",
+        "alternativas": [
+            "64 700.",
+            "78 700.",
+            "134 400.",
+            "818 000."
+        ],
+        "correct_option_index": 0,
+        "image_url": "/assets/exams/2019_q12.png"
+    },
+    {
+        "numero_original": 13,
+        "exam_id": "cp2-2019",
+        "materia": "Matemática",
+        "topico": "Operações Básicas",
+        "dificuldade": "Média",
+        "texto_base": "35 estudantes para exposição. Ônibus: R$ 70,00 por estudante. Entrada inteira (adultos): R$ 30,50. Meia entrada (estudantes): R$ 15,25. 2 adultos acompanham.",
+        "enunciado": "O valor total que será gasto na realização desta atividade é",
+        "alternativas": [
+            "R$ 2.983,75.",
+            "R$ 3.044,75.",
+            "R$ 3.517,50.",
+            "R$ 3.578,50."
+        ],
+        "correct_option_index": 1,
+        "image_url": null
+    },
+    {
+        "numero_original": 14,
+        "exam_id": "cp2-2019",
+        "materia": "Matemática",
+        "topico": "Razão e Proporção",
+        "dificuldade": "Média",
+        "texto_base": "Turmas do 5º ano: 501 (28), 502 (25), 503 (27), 504 (29). Em uma delas, havia exatamente duas meninas para cada menino.",
+        "enunciado": "O professor João acompanhou a turma",
+        "alternativas": [
+            "501.",
+            "502.",
+            "503.",
+            "504."
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 15,
+        "exam_id": "cp2-2019",
+        "materia": "Matemática",
+        "topico": "Expressões Numéricas",
+        "dificuldade": "Fácil",
+        "texto_base": "Família reservou R$ 170,00. 3 inteiras (R$ 20,00 cada) e 4 meias-entradas (R$ 10,00 cada).",
+        "enunciado": "A expressão numérica que fornece a quantia que restou após a compra dos ingressos é",
+        "alternativas": [
+            "170 – 3 × 20 + 4 × 10",
+            "170 + 3 × 20 − 4 × 10",
+            "(170 + 3 × 20) + (4 × 10)",
+            "170 – [ (3 × 20) + (4 × 10) ]"
+        ],
+        "correct_option_index": 3,
+        "image_url": "/assets/exams/2019_q15.png"
+    },
+    {
+        "numero_original": 16,
+        "exam_id": "cp2-2019",
+        "materia": "Matemática",
+        "topico": "Raciocínio Lógico",
+        "dificuldade": "Média",
+        "texto_base": "Datas: 4 ago, 29 ago, 1 set, 29 dez. Aleijadinho e Portinari mesmo dia (meses diff). Aleijadinho e Burle Marx mesmo mês (dias diff).",
+        "enunciado": "De acordo com essas informações, é correto afirmar que Tarsila do Amaral aniversariava no dia",
+        "alternativas": [
+            "4 de agosto.",
+            "29 de agosto.",
+            "1o de setembro.",
+            "29 de dezembro."
+        ],
+        "correct_option_index": 3,
+        "image_url": null
+    },
+    {
+        "numero_original": 17,
+        "exam_id": "cp2-2019",
+        "materia": "Matemática",
+        "topico": "Frações",
+        "dificuldade": "Média",
+        "texto_base": "4600 besouros. Azul (1/4), Preto (3/8). Roxos, Verdes e Marrons em quantidades iguais entre si.",
+        "enunciado": "Completando os dados registrados na tabela é correto afirmar que",
+        "alternativas": [
+            "1725 é o total de besouros pretos.",
+            "575 é a quantidade de besouros azuis.",
+            "1/2 é a fração que corresponde ao número de besouros verdes.",
+            "2/8 é a fração que corresponde ao número de besouros roxos."
+        ],
+        "correct_option_index": 0,
+        "image_url": "/assets/exams/2019_q17.png"
+    },
+    {
+        "numero_original": 18,
+        "exam_id": "cp2-2019",
+        "materia": "Matemática",
+        "topico": "Geometria Plana",
+        "dificuldade": "Fácil",
+        "texto_base": "Desenho de sarcófago em malha quadriculada. Cada quadradinho = 1 cm².",
+        "enunciado": "A área do sarcófago representado na malha quadriculada é",
+        "alternativas": [
+            "15 cm².",
+            "25 cm².",
+            "30 cm².",
+            "35 cm²."
+        ],
+        "correct_option_index": 2,
+        "image_url": "/assets/exams/2019_q18.png"
+    },
+    {
+        "numero_original": 19,
+        "exam_id": "cp2-2019",
+        "materia": "Matemática",
+        "topico": "Geometria Espacial",
+        "dificuldade": "Média",
+        "texto_base": "Tirinha sobre olhar para outros lados (figura 3D).",
+        "enunciado": "A planificação correspondente à figura geométrica tridimensional que aparece na tirinha é",
+        "alternativas": [
+            "Opção A (Tetraedro)",
+            "Opção B (Prisma)",
+            "Opção C (Pirâmide base quadrada)",
+            "Opção D (Cone)"
+        ],
+        "correct_option_index": 2,
+        "image_url": "/assets/exams/2019_q19.png"
+    },
+    {
+        "numero_original": 20,
+        "exam_id": "cp2-2019",
+        "materia": "Matemática",
+        "topico": "Análise Combinatória",
+        "dificuldade": "Fácil",
+        "texto_base": "4 quadros distintos dispostos lado a lado.",
+        "enunciado": "O número total de maneiras diferentes de se colocar lado a lado os 4 quadros é",
+        "alternativas": [
+            "8.",
+            "12.",
+            "16.",
+            "24."
+        ],
+        "correct_option_index": 3,
+        "image_url": "/assets/exams/2019_q20.png"
+    }
+]

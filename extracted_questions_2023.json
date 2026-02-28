@@ -1,0 +1,290 @@
+[
+    {
+        "numero_original": 1,
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Texto",
+        "texto_base": "TEXTO I: UMA LIÇÃO INESPERADA\n\nNo último dia de férias, Lilico nem dormiu direito. Não via a hora de voltar à escola e rever os amigos. Acordou feliz da vida, tomou o café da manhã às pressas, pegou sua mochila e foi ao encontro deles. Abraçou-os à entrada da escola, mostrou o relógio que ganhara de Natal, contou sobre sua viagem ao litoral. Depois ouviu as histórias dos amigos e divertiu-se com eles, o coração latejando de alegria.\n\nAos poucos, foi matando a saudade das descobertas que fazia ali, das meninas ruidosas, do azul e branco dos uniformes, daquele burburinho à beira do portão. Sentia-se como um peixe de volta ao mar. Mas, quando o sino anunciou o início das aulas, Lilico descobriu que caíra numa classe onde não havia nenhum de seus amigos.",
+        "enunciado": "Ao fim da leitura do Texto I, percebemos que o título “Uma lição inesperada” faz sentido porque",
+        "alternativas": {
+            "A": "os alunos organizaram uma festa surpresa para a nova professora.",
+            "B": "Lilico não conhecia os temas que foram tratados no primeiro dia de aula.",
+            "C": "a professora passou um dever que os alunos ainda não haviam aprendido.",
+            "D": "Lilico percebeu que seus colegas eram mais interessantes do que ele pensava."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 2,
+        "materia": "Língua Portuguesa",
+        "topico": "Compreensão de Texto",
+        "texto_base": "TEXTO I: UMA LIÇÃO INESPERADA (Fragmento)",
+        "enunciado": "Assinale a alternativa que apresenta uma informação verdadeira sobre o enredo do Texto I.",
+        "alternativas": {
+            "A": "Embora desejasse rever seus amigos, Lilico não queria voltar à escola.",
+            "B": "Inicialmente, Lilico não simpatizou com seus novos colegas de classe.",
+            "C": "Lilico manteve suas impressões iniciais em relação aos novos estudantes.",
+            "D": "Todos os estudantes tiveram dificuldade de conviver com os novos colegas."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 3,
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Texto",
+        "texto_base": "TEXTO I: UMA LIÇÃO INESPERADA (Fragmento)",
+        "enunciado": "Ao se deparar com seus novos colegas de classe, Lilico teve algumas impressões iniciais sobre eles com base em sua aparência. Assinale a alternativa que contém as primeiras impressões de Lilico em relação à menina vinda do Sul.",
+        "alternativas": {
+            "A": "Alta e boba.",
+            "B": "Metida e gentil.",
+            "C": "Fria e arrogante.",
+            "D": "Arrogante e inteligente."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 4,
+        "materia": "Língua Portuguesa",
+        "topico": "Análise Crítica",
+        "texto_base": "“O mulato, filho de pescador, falava arrastado, estalando a língua, com sotaque de malandro.” (linhas 16-17)",
+        "enunciado": "O termo “mulato”, usado pelo narrador, é carregado de racismo. No entanto, aponta para uma análise importante sobre o texto. Assinale a alternativa que melhor resume essa reflexão.",
+        "alternativas": {
+            "A": "O texto consegue mostrar como o narrador faz um pré-julgamento de um personagem com base em uma percepção anterior, que é como funciona o racismo.",
+            "B": "Todas as crianças vistas pelo narrador acabam correspondendo exatamente ao que ele esperava, o que aponta para uma situação de preconceito.",
+            "C": "O narrador não consegue desfazer a sua primeira percepção dos novos colegas de turma, o que mostra que a escola não era o que ele imaginava.",
+            "D": "A escola deve ser um ambiente de aprendizado e respeito às diferenças, mas o desfecho da narrativa revela que isso não acontece."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 5,
+        "materia": "Língua Portuguesa",
+        "topico": "Coesão Textual",
+        "texto_base": "“Surpreendeu-se ao vê-los em roda” (linha 21)",
+        "enunciado": "O pronome destacado no trecho acima refere-se aos",
+        "alternativas": {
+            "A": "antigos colegas.",
+            "B": "novos companheiros.",
+            "C": "garotos com tatuagens.",
+            "D": "estudantes desconhecidos."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 6,
+        "materia": "Língua Portuguesa",
+        "topico": "Semântica",
+        "texto_base": "“E, como um lápis deslizando numa folha de papel, um sorriso se desenhou novamente no rosto de Lilico.” (linhas 35-36)",
+        "enunciado": "No trecho acima foi atribuído à palavra destacada um sentido diferente do que é utilizado normalmente. O verbo desenhar apresenta o mesmo sentido da frase acima em:",
+        "alternativas": {
+            "A": "A minha professora desenha muito bem.",
+            "B": "A alegria do menino foi desenhada em seu olhar.",
+            "C": "A casa que ele desenhou se parece com a minha.",
+            "D": "A criança pegou um papel e começou a desenhar."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 7,
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Poema",
+        "texto_base": "TEXTO II: A INVENÇÃO DO ABRAÇO\n\nHá braços longos\ne curtos,\nmagros e gordos.\nHá braços brancos\ne negros,\nde velhos,\nde crianças.\nHá braços de homens\ne de mulheres.\nHá braços e braços.\nAté que um dia\nalguém deu um passo,\ndiminuiu o espaço\ne fez do braço\num laço.\nFoi um sucesso,\nvirou moda,\ne hoje até na hora\ndo fracasso\nse há braço\nhá abraço.\n\nSILVESTRIN, R. É tudo invenção. São Paulo: Ática, 2012.",
+        "enunciado": "O Texto II traz a história de um gesto muito importante que, por conta da pandemia, não podia acontecer. Nesse texto, o abraço simboliza",
+        "alternativas": {
+            "A": "as diferentes formas que os braços das pessoas podem ter, sendo longos, gordos, brancos ou de velhos.",
+            "B": "nossa vontade de conviver, estar junto e sentir afeto pelos outros que, por vezes, são diferentes de nós.",
+            "C": "o distanciamento criado entre os indivíduos, que passaram por um longo tempo de isolamento social.",
+            "D": "a tristeza ao constatar que as diferenças não podem ser superadas mesmo diante de outros gestos."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 8,
+        "materia": "Língua Portuguesa",
+        "topico": "Linguagem Poética",
+        "texto_base": "TEXTO II: A INVENÇÃO DO ABRAÇO (Fragmento)",
+        "enunciado": "O verbo haver, que aparece repetidas vezes ao longo do Texto II,",
+        "alternativas": {
+            "A": "é usado com a intenção de fazer uma brincadeira sonora com a palavra “braço”.",
+            "B": "pode ser substituído pelo verbo “ter” sem alterar o jogo sonoro com a palavra “braço”.",
+            "C": "aparece sempre flexionado no mesmo tempo verbal e sempre antes da palavra “braço”.",
+            "D": "é utilizado de maneira excessiva, contribuindo para que a leitura se torne um pouco confusa."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 9,
+        "materia": "Língua Portuguesa",
+        "topico": "Estrutura do Texto",
+        "texto_base": "TEXTO II: A INVENÇÃO DO ABRAÇO (Fragmento)",
+        "enunciado": "Ao analisarmos a estrutura do Texto II, percebemos que ele",
+        "alternativas": {
+            "A": "apresenta um verso dividido em várias estrofes.",
+            "B": "faz uso da rima em absolutamente todos os versos.",
+            "C": "intercala parágrafos muito longos com outros mais curtos.",
+            "D": "utiliza mais de quatro palavras que rimam com o termo “braço”."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 10,
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Tirinha",
+        "texto_base": "TEXTO III: Tirinha do Armandinho\n(L1: É... A GENTE NÃO PODE ABRAÇAR O MUNDO...)\n(L2: COMO ASSIM? POR QUÊ? NÃO É JUSTO!)\n(L3: O MUNDO PRECISA DE ABRAÇOS!)\n\nBECK, A. Armandinho.",
+        "enunciado": "No último quadrinho da tirinha, a fala de Armandinho mostra que ele e o pai",
+        "alternativas": {
+            "A": "acreditam que as pessoas precisam de mais abraços.",
+            "B": "acreditam que as pessoas não precisam mais de abraços.",
+            "C": "compreendem de forma diferente a expressão “abraçar o mundo”.",
+            "D": "compreendem da mesma forma a expressão “abraçar o mundo”."
+        },
+        "imageUrl": "/assets/exams/2023_q10.png",
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 11,
+        "materia": "Matemática",
+        "topico": "Localização e Orientação",
+        "texto_base": "Na figura a seguir, está representada a localização da casa de Ana, de sua Escola, da Padaria e do Mercado. Cada quadrado representa uma quadra.",
+        "enunciado": "Quando Ana vai para a Escola, ela sempre passa primeiro pela Padaria. Assinale a alternativa que NÃO representa o trajeto que Ana pode fazer para ir à escola.",
+        "alternativas": {
+            "A": "Ana desloca-se 3 quadras para Norte, 2 quadras para Leste, novamente 3 para Norte e 4 para Leste.",
+            "B": "Ana desloca-se 2 quadras para Leste, 6 para Norte e 4 para Leste.",
+            "C": "Ana desloca-se 3 quadras para Norte, 6 para Leste e novamente 3 para Norte.",
+            "D": "Ana desloca-se 3 quadras para Leste, 2 quadras para Norte, novamente 3 para Leste e 4 para Norte."
+        },
+        "imageUrl": "/assets/exams/2023_q11.png",
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 12,
+        "materia": "Matemática",
+        "topico": "Área de Figuras Planas",
+        "texto_base": "Para fazer o desenho da frente de um castelo, Marcela elaborou um rascunho em malha quadriculada.",
+        "enunciado": "Sabendo que cada quadradinho representa 4 m², a área da frente desse castelo é de",
+        "alternativas": {
+            "A": "43 m²",
+            "B": "45 m²",
+            "C": "172 m²",
+            "D": "180 m²"
+        },
+        "imageUrl": "/assets/exams/2023_q12.png",
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 13,
+        "materia": "Matemática",
+        "topico": "Expressão Numérica",
+        "texto_base": null,
+        "enunciado": "Paula digitou um número em sua calculadora, multiplicou-o por 7, somou 13, dividiu o resultado por 3 e obteve o número 30. Paula digitou o número",
+        "alternativas": {
+            "A": "25.",
+            "B": "17.",
+            "C": "15.",
+            "D": "11."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 14,
+        "materia": "Matemática",
+        "topico": "Probabilidade",
+        "texto_base": "Em uma caixa estão alguns prismas triangulares, alguns prismas quadrangulares e alguns cilindros, como mostra a figura a seguir. Sem ver, tiramos um deles ao acaso.",
+        "enunciado": "É correto afirmar que",
+        "alternativas": {
+            "A": "o menos provável de sair é o prisma triangular.",
+            "B": "é muito provável que saia um cilindro.",
+            "C": "a probabilidade de sair um prisma quadrangular é maior do que a probabilidade de sair um cilindro.",
+            "D": "é mais provável que saia um prisma quadrangular."
+        },
+        "imageUrl": "/assets/exams/2023_q14.png",
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 15,
+        "materia": "Matemática",
+        "topico": "Tratamento de Informação",
+        "texto_base": "Em uma pesquisa, 40 crianças responderam com que frequência elas ouvem música pelo rádio. O resultado está apresentado no gráfico a seguir.",
+        "enunciado": "Nessa pesquisa, o número de crianças que NUNCA ouvem música pelo rádio é de",
+        "alternativas": {
+            "A": "2 crianças.",
+            "B": "4 crianças.",
+            "C": "5 crianças.",
+            "D": "6 crianças."
+        },
+        "imageUrl": "/assets/exams/2023_q15.png",
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 16,
+        "materia": "Matemática",
+        "topico": "Sistema de Medidas e Tempo",
+        "texto_base": null,
+        "enunciado": "Kauê decidiu guardar, todos os dias, 3 reais em seu cofrinho para comprar um brinquedo que custa 140 reais. Kauê obteve o valor necessário para comprar esse brinquedo após",
+        "alternativas": {
+            "A": "5 semanas e 3 dias.",
+            "B": "5 semanas e 6 dias.",
+            "C": "6 semanas e 3 dias.",
+            "D": "6 semanas e 5 dias."
+        },
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 17,
+        "materia": "Matemática",
+        "topico": "Problemas de Equação",
+        "texto_base": "Thiago foi a uma livraria e comprou 4 livros e 2 cadernos. Cada caderno custou R$ 18,00 e os 4 livros tinham o mesmo preço.",
+        "enunciado": "Se o valor total pago por Thiago pelos 6 produtos foi de R$ 457,00, o preço de cada livro é",
+        "alternativas": {
+            "A": "R$ 104,75.",
+            "B": "R$ 105,25.",
+            "C": "R$ 114,25.",
+            "D": "R$ 118,50."
+        },
+        "imageUrl": "/assets/exams/2023_q17.png",
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 18,
+        "materia": "Matemática",
+        "topico": "Razão e Proporção",
+        "texto_base": "Para produzir uma determinada tonalidade de tinta roxa, foram misturadas duas porções de tinta azul e três porções de tinta vermelha.",
+        "enunciado": "Foram obtidos 70 L (litros) de tinta roxa, e todas as porções de tinta azul e vermelha tinham a mesma quantidade. A quantidade de tinta azul utilizada nessa mistura foi de",
+        "alternativas": {
+            "A": "14 litros.",
+            "B": "28 litros.",
+            "C": "42 litros.",
+            "D": "140 litros."
+        },
+        "imageUrl": "/assets/exams/2023_q18.png",
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 19,
+        "materia": "Matemática",
+        "topico": "Fração e Geometria",
+        "texto_base": "Na figura a seguir, observamos um retângulo dividido em várias regiões. Os segmentos de menor comprimento são todos iguais, e os quatro retângulos menores são todos iguais.",
+        "enunciado": "Se o retângulo grande for considerado como unidade de área, a fração que corresponde à área do quadrado menor é",
+        "alternativas": {
+            "A": "1/6",
+            "B": "1/12",
+            "C": "1/10",
+            "D": "1/9"
+        },
+        "imageUrl": "/assets/exams/2023_q19.png",
+        "gabarito_sugerido": null
+    },
+    {
+        "numero_original": 20,
+        "materia": "Matemática",
+        "topico": "Cálculo e Planejamento",
+        "texto_base": "Pietro, filho de Gabriel, gosta muito de beber Prontinho, uma bebida láctea sabor chocolate. Pietro bebe dois Prontinhos, um de manhã e outro à tarde, todos os dias. Gabriel resolveu aproveitar uma promoção e vai comprar a bebida láctea em caixas que contém 27 unidades.",
+        "enunciado": "Para que Pietro possa beber os seus dois Prontinhos em cada dia do mês de dezembro, a quantidade mínima de caixas que Gabriel precisa comprar é",
+        "alternativas": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+        },
+        "gabarito_sugerido": null
+    }
+]

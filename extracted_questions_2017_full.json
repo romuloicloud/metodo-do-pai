@@ -1,0 +1,281 @@
+[
+    {
+        "numero_original": 1,
+        "materia": "Língua Portuguesa",
+        "topico": "Compreensão de Texto",
+        "texto_base": "Texto I: Após libertação de cavalos de uso no turismo, Ilha de Paquetá recebe “charretes elétricas”.\n\nUma excelente matéria de um canal de TV aberta mostrou na tarde desta segunda-feira (23) como foi a recepção do público ao novo meio de transporte da Ilha de Paquetá, no Rio de Janeiro. A tradição de charretes puxadas por cavalos que já durava mais de 100 anos foi modificada no último fim de semana.\nAs “charretes elétricas”, como foram chamados os carrinhos elétricos adquiridos pela prefeitura, começaram a rodar pela ilha e desagradaram alguns moradores. Os saudosistas das charretes com cavalos chegaram a fazer protestos with cartazes para tentar impedir o funcionamento dos veículos.\nA maioria da população e dos turistas, no entanto, está eufórica com a notícia de que os cavalos estão no Santuário das Fadas¹, que fica na região serrana do Rio de Janeiro. Os vídeos dos animais chegando ao santuário e correndo pela grama felizes comoveram os moradores que não aguentavam mais ver os animais puxando carroças cheias de turistas.\nAté mesmo um carroceiro entrevistado pela equipe do canal de TV admitiu que tudo tende a melhorar. Embora ache que é triste que uma tradição se perca, o carroceiro está feliz por não ter mais que desembolsar cerca de R$ 1.500,00 por mês para manter o cavalo que puxava a charrete com a qual ele trabalhava.\nCom as “charretes elétricas”, os carroceiros terão mais lucro, não haverá mais crueldade com os animais e a questão sanitária também foi resolvida. É o começo de uma nova tradição na Ilha de Paquetá.\n\n¹Santuário das Fadas: O Santuário das Fadas é um projeto que tem como objetivo acolher e manter, num sítio localizado em Itaipava, no estado do Rio de Janeiro, animais vítimas de crueldade e exploração.",
+        "enunciado": "Sobre as ideias contidas no texto I, marque a alternativa correta.",
+        "alternativas": [
+            "A substituição dos cavalos por “charretes elétricas” na Ilha de Paquetá dá início a uma nova tradição sem crueldade com os animais, o que agradou a muitos moradores e turistas.",
+            "Fábio Chaves tomou conhecimento das “charretes elétricas” em Paquetá pela internet, o que é indicado pelo endereço eletrônico que consta ao final do texto.",
+            "Os saudosistas fizeram protestos com cartazes porque gostavam dos cavalos e sentiram falta deles andando livremente pelas ruas de Paquetá.",
+            "A chegada das “charretes elétricas” na Ilha de Paquetá foi boa para os cavalos, que foram libertados, mas não foi boa para os carroceiros."
+        ],
+        "correct_option_index": 0
+    },
+    {
+        "numero_original": 2,
+        "materia": "Língua Portuguesa",
+        "topico": "Semântica (Sinônimos)",
+        "texto_base": "TEXTO I\n\n[...]",
+        "enunciado": "Releia o trecho a seguir, destacado do texto I: “Os saudosistas das charretes com cavalos chegaram a fazer protestos com cartazes para tentar impedir o funcionamento dos veículos.” (2º parágrafo).\n\nAssinale a única alternativa que contém um sinônimo para o substantivo “veículos” no texto:",
+        "alternativas": [
+            "“charretes puxadas por cavalos”.",
+            "“charretes elétricas”.",
+            "“carroças”.",
+            "“cavalos”."
+        ],
+        "correct_option_index": 1
+    },
+    {
+        "numero_original": 3,
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Texto",
+        "texto_base": "TEXTO I\n\n[...]",
+        "enunciado": "Releia a frase destacada na Questão 2: “ Os saudosistas das charretes com cavalos chegaram a fazer protestos com cartazes para tentar impedir o funcionamento dos veículos.”(2º parágrafo).\n\nLevando em consideração esse trecho, podemos afirmar que os “ saudosistas das charretes”",
+        "alternativas": [
+            "não consideram importante a defesa da tradição e dos animais.",
+            "consideram que a tradição de puxar charretes é prejudicial aos animais.",
+            "julgam a defesa da tradição mais importante que o sofrimento dos cavalos.",
+            "julgam que a tradição de puxar charretes causa sofrimento para qualquer ser."
+        ],
+        "correct_option_index": 2
+    },
+    {
+        "numero_original": 4,
+        "materia": "Língua Portuguesa",
+        "topico": "Linguagem Poética",
+        "texto_base": "Texto II: O Cavalinho Branco (Cecília Meireles)\n\nÀ tarde, o cavalinho branco\nestá muito cansado:\n\nmas há um pedacinho do campo\nonde é sempre feriado.\n\nO cavalo sacode a crina\nloura e comprida\n\ne nas verdes ervas atira\nsua branca vida.\n\nSeu relincho estremece as raízes\ne ele ensina aos ventos\n\na alegria de sentir livres\nseus movimentos.\n\nTrabalhou todo o dia, tanto!\ndesde a madrugada!\n\nDescansa entre as flores, cavalinho branco,\nde crina dourada!",
+        "enunciado": "O texto de Cecília Meireles é muito visual, pois ela usa cores que, misturadas, compõem a descrição do cenário do poema. Esse aspecto fica mais evidente na",
+        "alternativas": [
+            "1ª estrofe.",
+            "2ª estrofe.",
+            "4ª estrofe.",
+            "5ª estrofe."
+        ],
+        "correct_option_index": 1
+    },
+    {
+        "numero_original": 5,
+        "materia": "Língua Portuguesa",
+        "topico": "Efeito de Sentido",
+        "texto_base": "Texto II: O Cavalinho Branco",
+        "enunciado": "A palavra “feriado”, na 2ª estrofe do texto II, sugere que o cavalinho branco encontrará",
+        "alternativas": [
+            "descanso.",
+            "sombra.",
+            "passeio.",
+            "comida."
+        ],
+        "correct_option_index": 0
+    },
+    {
+        "numero_original": 6,
+        "materia": "Língua Portuguesa",
+        "topico": "Intertextualidade",
+        "texto_base": "Texto I e Texto II",
+        "enunciado": "Releia o trecho do texto I destacado a seguir: “(...) não haverá mais crueldade com os animais (...)” (5º parágrafo).\n\nIdentifique a estrofe do texto II que mostra uma situation que não ocorrerá mais com os animais de Paquetá após a implantação das “charretes elétricas”.",
+        "alternativas": [
+            "“O cavalo sacode a crina loura e comprida”",
+            "“e nas verdes ervas atira sua branca vida.”",
+            "“Seu relincho estremece as raízes e ele ensina aos ventos”",
+            "“Trabalhou todo o dia, tanto! desde a madrugada!”"
+        ],
+        "correct_option_index": 3
+    },
+    {
+        "numero_original": 7,
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Tirinha",
+        "texto_base": "Texto III: Armandinho e a onça-pintada",
+        "enunciado": "A pergunta do personagem Armandinho, no último quadrinho do texto III, deixa claro que, na opinião dele,",
+        "alternativas": [
+            "a onça-pintada, por ser muito bonita, está presa para ser admirada.",
+            "os animais não merecem estar presos em jaulas nos zoológicos.",
+            "os animais vivem melhor quando estão presos em jaulas.",
+            "a onça-pintada não poderia estar solta na natureza."
+        ],
+        "correct_option_index": 1
+    },
+    {
+        "numero_original": 8,
+        "materia": "Língua Portuguesa",
+        "topico": "Concordância Nominal",
+        "texto_base": "Texto III",
+        "enunciado": "No texto III, ao substituirmos a palavra “onça-pintada” por TIGRES, no 1º quadrinho, o comentário correto do Armandinho, no 2º quadrinho, será:",
+        "alternativas": [
+            "São muitos lindos!",
+            "São muito lindos!",
+            "É lindo demais!",
+            "É muito lindo!"
+        ],
+        "correct_option_index": 1
+    },
+    {
+        "numero_original": 9,
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Tirinha",
+        "texto_base": "Texto IV: Armandinho sobre a natureza",
+        "enunciado": "A palavra “outros”, quando acrescentada à pergunta do Armandinho, no 3º quadrinho da tirinha, quer dizer que",
+        "alternativas": [
+            "os seres humanos não pertencem à natureza.",
+            "os seres humanos não podem ser animais.",
+            "os seres humanos também são animais.",
+            "os seres humanos não são animais."
+        ],
+        "correct_option_index": 2
+    },
+    {
+        "numero_original": 10,
+        "materia": "Língua Portuguesa",
+        "topico": "Verbos (Modo e Tempo)",
+        "texto_base": "Texto IV",
+        "enunciado": "O uso da forma verbal “seria”, no 3º quadrinho, enfatiza que Armandinho estava diante de uma",
+        "alternativas": [
+            "vergonha.",
+            "mentira.",
+            "certeza.",
+            "dúvida."
+        ],
+        "correct_option_index": 3
+    },
+    {
+        "numero_original": 11,
+        "materia": "Matemática",
+        "topico": "Operações (Peso e Tempo)",
+        "texto_base": "Hagar, O Horrível. Dr. Zook aconselha perder 250 gramas por semana.",
+        "enunciado": "Suponha que Hagar queira seguir o conselho do doutor Zook e para isso planeje perder 250 gramas por semana. Seguindo esse planejamento, serão necessárias para alcançar esse objetivo [Perder 45kg = 45000g / 250 = 180 weeks]",
+        "alternativas": [
+            "120 semanas.",
+            "150 semanas.",
+            "180 semanas.",
+            "200 semanas."
+        ],
+        "correct_option_index": 2
+    },
+    {
+        "numero_original": 12,
+        "materia": "Matemática",
+        "topico": "Porcentagem",
+        "texto_base": "Fazendinha CP II. Pera demora 5 horas. No segundo nível, diminui 10%.",
+        "enunciado": "Nesse caso, o tempo para produzir peras no segundo nível será de",
+        "alternativas": [
+            "4 horas e 05 minutos.",
+            "4 horas e 10 minutos.",
+            "4 horas e 30 minutos.",
+            "4 horas e 55 minutos."
+        ],
+        "correct_option_index": 2
+    },
+    {
+        "numero_original": 13,
+        "materia": "Matemática",
+        "topico": "Expressão Numérica e Divisibilidade",
+        "enunciado": "O resultado da expressão numérica 571 – [ 134 – ( 321 : 3) + 5 ] é um número divisível por",
+        "alternativas": [
+            "2.",
+            "5.",
+            "6.",
+            "7."
+        ],
+        "correct_option_index": 3
+    },
+    {
+        "numero_original": 14,
+        "materia": "Matemática",
+        "topico": "Grandezas e Medidas (Altura)",
+        "texto_base": "Dois jarros de barro. Maior e menor.",
+        "enunciado": "A diferença entre as alturas do jarro maior e do jarro menor é de",
+        "alternativas": [
+            "15cm.",
+            "16cm.",
+            "19cm.",
+            "20cm."
+        ],
+        "correct_option_index": 1
+    },
+    {
+        "numero_original": 15,
+        "materia": "Matemática",
+        "topico": "Aritmética (Soma e Subtração)",
+        "texto_base": "Tabela de passageiros. Janeiro: 268.357, Março: 298.452, Total: 935.003.",
+        "enunciado": "Podemos concluir que a quantidade de passageiros que a empresa transportou para Salvador no mês de Fevereiro foi de",
+        "alternativas": [
+            "366.809.",
+            "368.194.",
+            "371.894.",
+            "568.102."
+        ],
+        "correct_option_index": 1
+    },
+    {
+        "numero_original": 16,
+        "materia": "Matemática",
+        "topico": "Operações (Multiplicação e Dezenas)",
+        "texto_base": "A máquina de números.",
+        "enunciado": "Sabendo que entrou na máquina o maior número natural formado por dois algarismos iguais e que este número é menor que meia centena (44), e que a máquina multiplica por ele mesmo e retira duas dezenas e meia, o número que saiu foi",
+        "alternativas": [
+            "63.",
+            "943.",
+            "1911.",
+            "1936."
+        ],
+        "correct_option_index": 2
+    },
+    {
+        "numero_original": 17,
+        "materia": "Matemática",
+        "topico": "Frações e Volume",
+        "texto_base": "Escala musical com copos de água.",
+        "enunciado": "O volume total de água usado por Marcelo para montar essa escala musical (Soma das frações de 400ml: 7/8+6/8+5/8+4/8+3/8+2/8+1/8 = 28/8 = 3.5 copos) é igual a",
+        "alternativas": [
+            "1125 ml.",
+            "1400 ml.",
+            "1425 ml.",
+            "1450 ml."
+        ],
+        "correct_option_index": 1
+    },
+    {
+        "numero_original": 18,
+        "materia": "Matemática",
+        "topico": "Grandezas (Dúzia e Dezena)",
+        "texto_base": "Tabela de reciclagem (Latinhas, copos, sucos).",
+        "enunciado": "Sabendo que cada caixa deverá conter somente um tipo de objeto (Latinhas=18, Copos=36, Embalagens=12) e que cabem no máximo três dezenas por caixa, a menor quantidade de caixas é",
+        "alternativas": [
+            "5.",
+            "6.",
+            "7.",
+            "8."
+        ],
+        "correct_option_index": 2
+    },
+    {
+        "numero_original": 19,
+        "materia": "Matemática",
+        "topico": "Porcentagem",
+        "texto_base": "Distribuição de alunos por região do Rio.",
+        "enunciado": "O percentual que não aparece na tabela (5%) corresponde aos 137 alunos que moram em outros municípios. A quantidade total de alunos do colégio é de",
+        "alternativas": [
+            "2740.",
+            "6850.",
+            "13015.",
+            "13510."
+        ],
+        "correct_option_index": 0
+    },
+    {
+        "numero_original": 20,
+        "materia": "Matemática",
+        "topico": "Área de Figuras Planas",
+        "texto_base": "Doze emblemas em formação circular.",
+        "enunciado": "Sabendo que, na foto, cada emblema teve sua área reduzida a um quarto, pode-se afirmar que a área total dos doze emblemas da foto equivale a",
+        "alternativas": [
+            "420 u.a.",
+            "210 u.a.",
+            "108 u.a",
+            "105 u.a."
+        ],
+        "correct_option_index": 3
+    }
+]

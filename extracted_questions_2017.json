@@ -1,0 +1,342 @@
+[
+    {
+        "numero_original": 1,
+        "exam_id": "cp2-2017",
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Texto",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO I: Após libertação de cavalos de uso no turismo, Ilha de Paquetá recebe “charretes elétricas”. (Fábio Chaves)",
+        "enunciado": "Sobre as ideias contidas no texto I, marque a alternativa correta.",
+        "alternativas": [
+            "A substituição dos cavalos por “charretes elétricas” na Ilha de Paquetá dá início a uma nova tradição sem crueldade com os animais, o que agradou a muitos moradores e turistas.",
+            "Fábio Chaves tomou conhecimento das “charretes elétricas” em Paquetá pela internet, o que é indicado pelo endereço eletrônico que consta ao final do texto.",
+            "Os saudosistas fizeram protestos com cartazes porque gostavam dos cavalos e sentiram falta deles andando livremente pelas ruas de Paquetá.",
+            "A chegada das “charretes elétricas” na Ilha de Paquetá foi boa para os cavalos, que foram libertados, mas não foi boa para os carroceiros."
+        ],
+        "correct_option_index": 0,
+        "image_url": null
+    },
+    {
+        "numero_original": 2,
+        "exam_id": "cp2-2017",
+        "materia": "Língua Portuguesa",
+        "topico": "Coesão Textual (Sinonímia)",
+        "dificuldade": "Fácil",
+        "texto_base": "“Os saudosistas das charretes com cavalos chegaram a fazer protestos com cartazes para tentar impedir o funcionamento dos veículos.” (2º parágrafo).",
+        "enunciado": "Assinale a única alternativa que contém um sinônimo para o substantivo “veículos” no texto:",
+        "alternativas": [
+            "“charretes puxadas por cavalos”.",
+            "“charretes elétricas”.",
+            "“carroças”.",
+            "“cavalos”."
+        ],
+        "correct_option_index": 1,
+        "image_url": null
+    },
+    {
+        "numero_original": 3,
+        "exam_id": "cp2-2017",
+        "materia": "Língua Portuguesa",
+        "topico": "Compreensão de Texto",
+        "dificuldade": "Fácil",
+        "texto_base": "“Os saudosistas das charretes com cavalos chegaram a fazer protestos com cartazes para tentar impedir o funcionamento dos veículos.”(2º parágrafo).",
+        "enunciado": "Levando em consideração esse trecho, podemos afirmar que os “saudosistas das charretes”",
+        "alternativas": [
+            "não consideram importante a defesa da tradição e dos animais.",
+            "consideram que a tradição de puxar charretes é prejudicial aos animais.",
+            "julgam a defesa da tradição mais importante que o sofrimento dos cavalos.",
+            "julgam que a tradição de puxar charretes causa sofrimento para qualquer ser."
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 4,
+        "exam_id": "cp2-2017",
+        "materia": "Língua Portuguesa",
+        "topico": "Recursos de Expressividade (Visualidade)",
+        "dificuldade": "Média",
+        "texto_base": "TEXTO II: O Cavalinho Branco (Cecília Meireles)",
+        "enunciado": "O texto de Cecília Meireles é muito visual, pois ela usa cores que, misturadas, compõem a descrição do cenário do poema. Esse aspecto fica mais evidente na",
+        "alternativas": [
+            "1ª estrofe.",
+            "2ª estrofe.",
+            "4ª estrofe.",
+            "5ª estrofe."
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 5,
+        "exam_id": "cp2-2017",
+        "materia": "Língua Portuguesa",
+        "topico": "Semântica (Inferência)",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO II: O Cavalinho Branco",
+        "enunciado": "A palavra “feriado”, na 2ª estrofe do texto II, sugere que o cavalinho branco encontrará",
+        "alternativas": [
+            "descanso.",
+            "sombra.",
+            "passeio.",
+            "comida."
+        ],
+        "correct_option_index": 0,
+        "image_url": null
+    },
+    {
+        "numero_original": 6,
+        "exam_id": "cp2-2017",
+        "materia": "Língua Portuguesa",
+        "topico": "Intertextualidade",
+        "dificuldade": "Média",
+        "texto_base": "Texto I: “(...) não haverá mais crueldade com os animais (...)”",
+        "enunciado": "Identifique a estrofe do texto II que mostra uma situação que não ocorrerá mais com os animais de Paquetá após a implantação das “charretes elétricas”.",
+        "alternativas": [
+            "“O cavalo sacode a crina / loura e comprida”",
+            "“e nas verdes ervas atira / sua branca vida.”",
+            "“Seu relincho estremece as raízes / e ele ensina aos ventos”",
+            "“Trabalhou todo o dia, tanto! / desde a madrugada!”"
+        ],
+        "correct_option_index": 3,
+        "image_url": null
+    },
+    {
+        "numero_original": 7,
+        "exam_id": "cp2-2017",
+        "materia": "Língua Portuguesa",
+        "topico": "Compreensão de Texto (Charge)",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO III: Charge do Armandinho sobre a onça-pintada no ZOO.",
+        "enunciado": "A pergunta do personagem Armandinho, no último quadrinho do texto III (E o que ela fez pra estar presa?), deixa claro que, na opinião dele,",
+        "alternativas": [
+            "a onça-pintada, por ser muito bonita, está presa para ser admirada.",
+            "os animais não merecem estar presos em jaulas nos zoológicos.",
+            "os animais vivem melhor quando estão presos em jaulas.",
+            "a onça-pintada não poderia estar solta na natureza."
+        ],
+        "correct_option_index": 1,
+        "image_url": "/assets/exams/2017_q7.png"
+    },
+    {
+        "numero_original": 8,
+        "exam_id": "cp2-2017",
+        "materia": "Língua Portuguesa",
+        "topico": "Morfossintaxe (Concordância)",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO III: Charge do Armandinho.",
+        "enunciado": "No texto III, ao substituirmos a palavra “onça-pintada” por TIGRES, no 1º quadrinho, o comentário correto do Armandinho, no 2º quadrinho, será:",
+        "alternativas": [
+            "São muitos lindos!",
+            "São muito lindos!",
+            "É lindo demais!",
+            "É muito lindo!"
+        ],
+        "correct_option_index": 1,
+        "image_url": null
+    },
+    {
+        "numero_original": 9,
+        "exam_id": "cp2-2017",
+        "materia": "Língua Portuguesa",
+        "topico": "Semântica (Pressuposição)",
+        "dificuldade": "Média",
+        "texto_base": "TEXTO IV: Charge do Armandinho (Qual a diferença entre os humanos e os outros animais?)",
+        "enunciado": "A palavra “outros”, quando acrescentada à pergunta do Armandinho, no 3º quadrinho da tirinha, quer dizer que",
+        "alternativas": [
+            "os seres humanos não pertencem à natureza.",
+            "os seres humanos não podem ser animais.",
+            "os seres humanos também são animais.",
+            "os seres humanos não são animais."
+        ],
+        "correct_option_index": 2,
+        "image_url": "/assets/exams/2017_q9.png"
+    },
+    {
+        "numero_original": 10,
+        "exam_id": "cp2-2017",
+        "materia": "Língua Portuguesa",
+        "topico": "Semântica (Sentido do Verbo)",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO IV: Charge do Armandinho.",
+        "enunciado": "O uso da forma verbal “seria”, no 3º quadrinho, enfatiza que Armandinho estava diante de uma",
+        "alternativas": [
+            "vergonha.",
+            "mentira.",
+            "certeza.",
+            "dúvida."
+        ],
+        "correct_option_index": 3,
+        "image_url": null
+    },
+    {
+        "numero_original": 11,
+        "exam_id": "cp2-2017",
+        "materia": "Matemática",
+        "topico": "Operações Básicas (Divisão)",
+        "dificuldade": "Média",
+        "texto_base": "Hagar, O Horrível. Dr. Zook aconselha perder 30 quilos. Hagar planeja perder 250 gramas por semana.",
+        "enunciado": "Seguindo esse planejamento, serão necessárias para alcançar esse objetivo (perder 30kg)",
+        "alternativas": [
+            "120 semanas.",
+            "150 semanas.",
+            "180 semanas.",
+            "200 semanas."
+        ],
+        "correct_option_index": 0,
+        "image_url": "/assets/exams/2017_q11.png"
+    },
+    {
+        "numero_original": 12,
+        "exam_id": "cp2-2017",
+        "materia": "Matemática",
+        "topico": "Grandezas e Medidas (Porcentagem/Tempo)",
+        "dificuldade": "Média",
+        "texto_base": "Fazendinha CP II. Nível 1: pera demora 5 horas. Nível 2: tempo de cada fruta diminui 10%.",
+        "enunciado": "Nesse caso, o tempo para produzir peras no segundo nível será de",
+        "alternativas": [
+            "4 horas e 05 minutos.",
+            "4 horas e 10 minutos.",
+            "4 horas e 30 minutos.",
+            "4 horas e 55 minutos."
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 13,
+        "exam_id": "cp2-2017",
+        "materia": "Matemática",
+        "topico": "Expressões Numéricas (Divisibilidade)",
+        "dificuldade": "Fácil",
+        "texto_base": "Expressão: 571 – [ 134 – ( 321 : 3) + 5 ]",
+        "enunciado": "O resultado da expressão numérica é um número divisível por",
+        "alternativas": [
+            "2.",
+            "5.",
+            "6.",
+            "7."
+        ],
+        "correct_option_index": 3,
+        "image_url": null
+    },
+    {
+        "numero_original": 14,
+        "exam_id": "cp2-2017",
+        "materia": "Matemática",
+        "topico": "Grandezas e Medidas (Comprimento)",
+        "dificuldade": "Fácil",
+        "texto_base": "Jarros de barro. Jarro menor: 44cm (aproximadamente na escala). Jarro maior: 60cm.",
+        "enunciado": "A diferença entre as alturas do jarro maior e do jarro menor é de",
+        "alternativas": [
+            "15cm.",
+            "16cm.",
+            "19cm.",
+            "20cm."
+        ],
+        "correct_option_index": 1,
+        "image_url": "/assets/exams/2017_q14.png"
+    },
+    {
+        "numero_original": 15,
+        "exam_id": "cp2-2017",
+        "materia": "Matemática",
+        "topico": "Operações Básicas (Adição/Subtração)",
+        "dificuldade": "Fácil",
+        "texto_base": "Passageiros para Salvador. Jan (268.357), Mar (298.452). Total trim: 935.003.",
+        "enunciado": "Podemos concluir que a quantidade de passageiros que a empresa transportou para Salvador no mês de Fevereiro foi de",
+        "alternativas": [
+            "366.809.",
+            "368.194.",
+            "371.894.",
+            "568.102."
+        ],
+        "correct_option_index": 1,
+        "image_url": null
+    },
+    {
+        "numero_original": 16,
+        "exam_id": "cp2-2017",
+        "materia": "Matemática",
+        "topico": "Aritmética (Potenciação/Subtração)",
+        "dificuldade": "Média",
+        "texto_base": "Máquina: número multiplicado por ele mesmo, retira-se 17. Entra o maior natural de 2 algarismos iguais < 50.",
+        "enunciado": "O número que entrou foi 44. O número que saiu da máquina foi",
+        "alternativas": [
+            "63.",
+            "943.",
+            "1911.",
+            "1936."
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 17,
+        "exam_id": "cp2-2017",
+        "materia": "Matemática",
+        "topico": "Frações / Fração de Quantidade",
+        "dificuldade": "Média",
+        "texto_base": "Copos de 400ml. Água: 7/8 + 6/8 + 5/8 + 4/8 + 3/8 + 2/8 + 1/8 de 400ml.",
+        "enunciado": "O volume total de água usado por Marcelo para montar essa escala musical é igual a",
+        "alternativas": [
+            "1125 ml.",
+            "1400 ml.",
+            "1425 ml.",
+            "1450 ml."
+        ],
+        "correct_option_index": 1,
+        "image_url": "/assets/exams/2017_q17.png"
+    },
+    {
+        "numero_original": 18,
+        "exam_id": "cp2-2017",
+        "materia": "Matemática",
+        "topico": "Aritmética (Divisão/Estimativa)",
+        "dificuldade": "Média",
+        "texto_base": "Reciclagem: Latinhas, Copos, Embalagens. Ícones: Grande(12), Pequeno(6). Caixa cabe máx 30.",
+        "enunciado": "A menor quantidade de caixas para colocar todas as latinhas, copos plásticos e embalagens de sucos é",
+        "alternativas": [
+            "5.",
+            "6.",
+            "7.",
+            "8."
+        ],
+        "correct_option_index": 2,
+        "image_url": "/assets/exams/2017_q18.png"
+    },
+    {
+        "numero_original": 19,
+        "exam_id": "cp2-2017",
+        "materia": "Matemática",
+        "topico": "Tratamento de Informação (Porcentagem)",
+        "dificuldade": "Média",
+        "texto_base": "Regiões RJ: Centro(15%), Sul(5%), Norte(40%), Oeste(35%). Restante (Outros): 137 alunos.",
+        "enunciado": "A quantidade total de alunos do colégio de Daniel é de",
+        "alternativas": [
+            "2740.",
+            "6850.",
+            "13015.",
+            "13510."
+        ],
+        "correct_option_index": 0,
+        "image_url": null
+    },
+    {
+        "numero_original": 20,
+        "exam_id": "cp2-2017",
+        "materia": "Matemática",
+        "topico": "Geometria Plana (Área)",
+        "dificuldade": "Difícil",
+        "texto_base": "12 emblemas. Foto reduz cada um a 1/4 da área original. Emblema original tem 35 unidades de área.",
+        "enunciado": "A área total dos doze emblemas da foto equivale a",
+        "alternativas": [
+            "420 u.a.",
+            "210 u.a.",
+            "108 u.a",
+            "105 u.a."
+        ],
+        "correct_option_index": 3,
+        "image_url": "/assets/exams/2017_q20.png"
+    }
+]

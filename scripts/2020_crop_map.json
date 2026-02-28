@@ -1,0 +1,78 @@
+{
+    "year": "2020",
+    "dpi": 400,
+    "crops": {
+        "10": {
+            "page": 5,
+            "top": 0.44,
+            "bottom": 0.80,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Tabela populacao indigena por regiao e grafico de barras"
+        },
+        "11": {
+            "page": 6,
+            "top": 0.07,
+            "bottom": 0.40,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Tirinha Armandinho - cidades e populacao"
+        },
+        "12": {
+            "page": 6,
+            "top": 0.44,
+            "bottom": 0.78,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Grafico setores e tabela - gastos moradia alimentacao"
+        },
+        "14": {
+            "page": 7,
+            "top": 0.25,
+            "bottom": 0.55,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Cardapio restaurante com precos de pratos"
+        },
+        "15": {
+            "page": 7,
+            "top": 0.58,
+            "bottom": 0.82,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Figuras geometricas planificacao de solidos"
+        },
+        "17": {
+            "page": 8,
+            "top": 0.40,
+            "bottom": 0.72,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Planta baixa do apartamento com medidas"
+        },
+        "18": {
+            "page": 9,
+            "top": 0.07,
+            "bottom": 0.48,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Caixa dagua formato cilindro - dimensoes e volume"
+        },
+        "19": {
+            "page": 9,
+            "top": 0.52,
+            "bottom": 0.80,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Malha quadriculada com triangulos e bandeira"
+        },
+        "20": {
+            "page": 10,
+            "top": 0.07,
+            "bottom": 0.36,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Figuras simetricas em malha pontilhada"
+        }
+    }
+}

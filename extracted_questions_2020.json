@@ -1,0 +1,342 @@
+[
+    {
+        "numero_original": 1,
+        "exam_id": "cp2-2020",
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Texto",
+        "dificuldade": "Fácil",
+        "texto_base": "Texto I: QUAIS SÃO OS DEVERES E DIREITOS DAS CRIANÇAS?\nEssa foi a pergunta feita pela pequena leitora Vitória, de 10 anos de idade, à Turminha do MPF (Ministério Público Federal).",
+        "enunciado": "Quanto ao personagem Rod, do Texto I, é correto afirmar que ele",
+        "alternativas": [
+            "não é um jovem que fala sobre direitos e deveres das crianças e não participa da história.",
+            "é um adulto que pouco entende de direitos e deveres das crianças, mas participa da história.",
+            "não participa da história, não se preocupa e nada sabe sobre direitos e deveres das crianças.",
+            "participa da história, sendo uma criança que explica seus direitos e deveres para outra criança."
+        ],
+        "correct_option_index": 3,
+        "image_url": null
+    },
+    {
+        "numero_original": 2,
+        "exam_id": "cp2-2020",
+        "materia": "Língua Portuguesa",
+        "topico": "Compreensão de Texto",
+        "dificuldade": "Fácil",
+        "texto_base": "Texto I: QUAIS SÃO OS DEVERES E DIREITOS DAS CRIANÇAS? (Fragmento)",
+        "enunciado": "A respeito do assunto tratado no Texto I, a melhor opção para explicá-lo é a seguinte:",
+        "alternativas": [
+            "As crianças têm direitos que precisam ser respeitados, mas também têm deveres.",
+            "Os direitos e os deveres mencionados são direcionados somente a adultos e idosos.",
+            "Os direitos e os deveres são necessários para as crianças, mas não existem leis sobre isso.",
+            "As crianças somente necessitam de direitos, porém os deveres não precisam ser respeitados."
+        ],
+        "correct_option_index": 0,
+        "image_url": null
+    },
+    {
+        "numero_original": 3,
+        "exam_id": "cp2-2020",
+        "materia": "Língua Portuguesa",
+        "topico": "Semântica",
+        "dificuldade": "Média",
+        "texto_base": "“Por exemplo, trabalhar para criar e educar nossos próprios filhos ou para ser capaz de votar, com discernimento, nos melhores representantes para governar nossas cidades e nosso país” (linhas 24-26)",
+        "enunciado": "Mantendo o mesmo sentido, o substantivo discernimento pode ser substituído por",
+        "alternativas": [
+            "honestidade.",
+            "sabedoria.",
+            "gentileza.",
+            "bondade."
+        ],
+        "correct_option_index": 1,
+        "image_url": null
+    },
+    {
+        "numero_original": 4,
+        "exam_id": "cp2-2020",
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Texto",
+        "dificuldade": "Fácil",
+        "texto_base": "Texto I: QUAIS SÃO OS DEVERES E DIREITOS DAS CRIANÇAS? (Fragmento)",
+        "enunciado": "Assinale a alternativa em que todas as opções são caracterizadas como direitos das crianças.",
+        "alternativas": [
+            "Acesso a educação, saúde e lazer.",
+            "Acesso a moradia, trabalho e saúde.",
+            "Acesso a perigos constantes, moradia e lazer.",
+            "Acesso a alimentação precária, educação e saúde."
+        ],
+        "correct_option_index": 0,
+        "image_url": null
+    },
+    {
+        "numero_original": 5,
+        "exam_id": "cp2-2020",
+        "materia": "Língua Portuguesa",
+        "topico": "Semântica",
+        "dificuldade": "Média",
+        "texto_base": "“E tem de ser bem aceita / Seja sadia ou doente” (versos 19-20)",
+        "enunciado": "Nos versos destacados, foi utilizado um par de palavras que expressam sentidos opostos. Isso também acontece na alternativa:",
+        "alternativas": [
+            "“Morango com chantili/ Ver mágico de cartola”.",
+            "“Ser alegre e tagarela/ Poder também dizer não”.",
+            "“Direito de perguntar/ Ter alguém pra responder”.",
+            "“Uma história bem bonita/ Então, dormir e sonhar”."
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 6,
+        "exam_id": "cp2-2020",
+        "materia": "Língua Portuguesa",
+        "topico": "Intertextualidade",
+        "dificuldade": "Média",
+        "texto_base": "Texto I (Artigo) e Texto II (Poema)",
+        "enunciado": "Identifique a seguir o verso do Texto II que equivale ao direito da criança apontado no Texto I:",
+        "alternativas": [
+            "“Criança tem que ter lar” (Texto II) / “ter acesso à cultura e aos meios de comunicação e informação” (Texto I).",
+            "“Criança tem que ter nome” (Texto II) / “ter uma educação de boa qualidade” (Texto I).",
+            "“Direito de ter brinquedos” (Texto II) / “receber assistência médica gratuita nos hospitais públicos” (Texto I).",
+            "“Alguém para querer bem” (Texto II) / “ter a proteção de uma família que nos ame, seja ela natural ou adotiva” (Texto I)."
+        ],
+        "correct_option_index": 3,
+        "image_url": null
+    },
+    {
+        "numero_original": 7,
+        "exam_id": "cp2-2020",
+        "materia": "Língua Portuguesa",
+        "topico": "Recursos de Expressividade",
+        "dificuldade": "Fácil",
+        "texto_base": "“E quando a noite chegar, / Um bom banho, bem quentinho,” (versos 57-58)",
+        "enunciado": "O uso do diminutivo em quentinho indica, nesse caso, que o banho é",
+        "alternativas": [
+            "rápido.",
+            "pequeno.",
+            "relaxante.",
+            "desagradável."
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 8,
+        "exam_id": "cp2-2020",
+        "materia": "Língua Portuguesa",
+        "topico": "Recursos de Expressividade",
+        "dificuldade": "Fácil",
+        "texto_base": "“Bola, bola, bola, bola!” (verso 36)",
+        "enunciado": "A repetição da palavra bola, no verso acima, reforça a ideia de que todas as crianças têm o direito de",
+        "alternativas": [
+            "comer.",
+            "brincar.",
+            "estudar.",
+            "passear."
+        ],
+        "correct_option_index": 1,
+        "image_url": null
+    },
+    {
+        "numero_original": 9,
+        "exam_id": "cp2-2020",
+        "materia": "Língua Portuguesa",
+        "topico": "Coesão Textual",
+        "dificuldade": "Média",
+        "texto_base": "Texto III: Charge do Armandinho\n“Não era exatamente este tipo de carrinho que eu queria ganhar!”",
+        "enunciado": "No Texto III, o pronome este foi destacado com a intenção de chamar a atenção do leitor para outro modelo de carrinho, que provavelmente estaria nas expectativas da criança. Esse outro seria um carrinho de",
+        "alternativas": [
+            "feira.",
+            "carga.",
+            "mercado.",
+            "brinquedo."
+        ],
+        "correct_option_index": 3,
+        "image_url": null
+    },
+    {
+        "numero_original": 10,
+        "exam_id": "cp2-2020",
+        "materia": "Língua Portuguesa",
+        "topico": "Linguagem Mista",
+        "dificuldade": "Fácil",
+        "texto_base": "Texto III: Charge do Armandinho",
+        "enunciado": "Os braços cruzados e a testa franzida do menino, personagem da charge (Texto III), indicam que ele está",
+        "alternativas": [
+            "decepcionado, pois esperava por outro tipo de presente.",
+            "preocupado, porque o presente chegou muito tarde.",
+            "alegre, por ser presenteado com algo inesperado.",
+            "entusiasmado, por ter ganhado algo muito útil."
+        ],
+        "correct_option_index": 0,
+        "image_url": "/assets/exams/2020_q10.png"
+    },
+    {
+        "numero_original": 11,
+        "exam_id": "cp2-2020",
+        "materia": "Matemática",
+        "topico": "Geometria Plana",
+        "dificuldade": "Média",
+        "texto_base": "O iKeybo é um projetor virtual... sua área de projeção retangular tem dimensões 2,68 dm x 1,05 dm.",
+        "enunciado": "O perímetro do retângulo que limita a área de projeção mencionada, em dm, é de",
+        "alternativas": [
+            "7,46.",
+            "3,73.",
+            "2,81.",
+            "1,63."
+        ],
+        "correct_option_index": 0,
+        "image_url": "/assets/exams/2020_q11.png"
+    },
+    {
+        "numero_original": 12,
+        "exam_id": "cp2-2020",
+        "materia": "Matemática",
+        "topico": "Operações Básicas",
+        "dificuldade": "Média",
+        "texto_base": "Artur resolveu presentear seus filhos com mouses, fones e teclados selecionando opções de preços (A, B, C).",
+        "enunciado": "Enquanto Bianca quer o fone mais caro, Breno quer o mouse mais caro. Artur gastará o mínimo possível nos outros. A diferença entre o gasto total de Bianca e Breno será de",
+        "alternativas": [
+            "R$ 20,10.",
+            "R$ 20,90.",
+            "R$ 21,10.",
+            "R$ 21,90."
+        ],
+        "correct_option_index": 0,
+        "image_url": "/assets/exams/2020_q12.png"
+    },
+    {
+        "numero_original": 13,
+        "exam_id": "cp2-2020",
+        "materia": "Matemática",
+        "topico": "Sequências e Lógica",
+        "dificuldade": "Média",
+        "texto_base": "Duas irmãs postaram 12 dezenas de fotos em 4 dias. A cada dia postaram o dobro do dia anterior.",
+        "enunciado": "Foram postadas, no último dia,",
+        "alternativas": [
+            "64 fotos.",
+            "32 fotos.",
+            "16 fotos.",
+            "8 fotos."
+        ],
+        "correct_option_index": 0,
+        "image_url": null
+    },
+    {
+        "numero_original": 14,
+        "exam_id": "cp2-2020",
+        "materia": "Matemática",
+        "topico": "Raciocínio Lógico",
+        "dificuldade": "Difícil",
+        "texto_base": "Senha de desbloqueio: sequência de três traços com exatamente três pontos alinhados em cada um, sem pontos em comum, sem tirar o dedo.",
+        "enunciado": "O número de códigos possíveis que esse usuário pode criar é",
+        "alternativas": [
+            "16.",
+            "24.",
+            "32.",
+            "48."
+        ],
+        "correct_option_index": 1,
+        "image_url": "/assets/exams/2020_q14.png"
+    },
+    {
+        "numero_original": 15,
+        "exam_id": "cp2-2020",
+        "materia": "Matemática",
+        "topico": "Grandezas e Medidas",
+        "dificuldade": "Média",
+        "texto_base": "Moovit: chegada ao ponto às 9h20min. Duas linhas: 750D (47 min, saída 9h25) e 570D (41 min, saída 9h32).",
+        "enunciado": "Escolhendo a opção que a deixasse no trabalho mais cedo, essa pessoa chegou à Rua Marechal Floriano às",
+        "alternativas": [
+            "10 horas e 2 minutos.",
+            "10 horas e 3 minutos.",
+            "10 horas e 12 minutos.",
+            "10 horas e 13 minutos."
+        ],
+        "correct_option_index": 2,
+        "image_url": "/assets/exams/2020_q15.png"
+    },
+    {
+        "numero_original": 16,
+        "exam_id": "cp2-2020",
+        "materia": "Matemática",
+        "topico": "Frações",
+        "dificuldade": "Média",
+        "texto_base": "Pesquisa com 180 estudantes. 1/4 prefere Facebook, 1/3 prefere Instagram, e o restante prefere Twitter.",
+        "enunciado": "A fração que corresponde à quantidade de estudantes que declararam preferência pelo Twitter é:",
+        "alternativas": [
+            "2/7",
+            "5/7",
+            "5/12",
+            "7/12"
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 17,
+        "exam_id": "cp2-2020",
+        "materia": "Matemática",
+        "topico": "Múltiplos e Divisores",
+        "dificuldade": "Média",
+        "texto_base": "Kit minirrobôs: 15 espaçadores, 20 porcas, 30 parafusos. Distribuídos em saquinhos com a mesma quantidade de peças.",
+        "enunciado": "Foram necessários para distribuir todas as peças, no mínimo,",
+        "alternativas": [
+            "17 saquinhos.",
+            "13 saquinhos.",
+            "9 saquinhos.",
+            "5 saquinhos."
+        ],
+        "correct_option_index": 1,
+        "image_url": "/assets/exams/2020_q17.png"
+    },
+    {
+        "numero_original": 18,
+        "exam_id": "cp2-2020",
+        "materia": "Matemática",
+        "topico": "Sequências e Padrões",
+        "dificuldade": "Média",
+        "texto_base": "Minecraft: árvores de blocos. Etapa 1: 3 blocos. Etapa 2: 5 blocos. Etapa 3: 7 blocos.",
+        "enunciado": "Para a construção da árvore na Etapa 10, o estudante utilizou",
+        "alternativas": [
+            "10 blocos.",
+            "21 blocos.",
+            "100 blocos.",
+            "121 blocos."
+        ],
+        "correct_option_index": 1,
+        "image_url": "/assets/exams/2020_q18.png"
+    },
+    {
+        "numero_original": 19,
+        "exam_id": "cp2-2020",
+        "materia": "Matemática",
+        "topico": "Geometria Plana",
+        "dificuldade": "Média",
+        "texto_base": "Bandeirinha em malha quadriculada. Lado do menor quadrado = 5 mm.",
+        "enunciado": "A área da figura que Thiago viu surgir na tela, em cm², é de",
+        "alternativas": [
+            "0,40.",
+            "0,75.",
+            "4,00.",
+            "7,50."
+        ],
+        "correct_option_index": 1,
+        "image_url": "/assets/exams/2020_q19.png"
+    },
+    {
+        "numero_original": 20,
+        "exam_id": "cp2-2020",
+        "materia": "Matemática",
+        "topico": "Porcentagem e Gráficos",
+        "dificuldade": "Média",
+        "texto_base": "Gráfico de empresas formalizadas (2014-2018). Total em 2018 = 276. Sudeste(146), Sul(60), Nordeste(40), C.Oeste(21).",
+        "enunciado": "A quantidade de empresas na Região Norte em 2018 é igual a",
+        "alternativas": [
+            "7.",
+            "8.",
+            "9.",
+            "10."
+        ],
+        "correct_option_index": 2,
+        "image_url": "/assets/exams/2020_q20.png"
+    }
+]

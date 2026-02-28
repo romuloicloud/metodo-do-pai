@@ -1,0 +1,5 @@
+{
+  "name": "Método do Pai: AI Tutor",
+  "description": "An AI-powered Micro SaaS for educational purposes, designed to prepare students for specific exams like Pedro II and FAETEC. It features dynamic question generation, personalized feedback from an AI tutor, performance tracking, and gamification elements.",
+  "requestFramePermissions": []
+}

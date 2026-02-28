@@ -1,0 +1,62 @@
+{
+    "year": "2019",
+    "dpi": 400,
+    "crops": {
+        "10": {
+            "page": 6,
+            "top": 0.07,
+            "bottom": 0.42,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Charge Laerte - dinossauros e Museu Nacional"
+        },
+        "12": {
+            "page": 7,
+            "top": 0.14,
+            "bottom": 0.47,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Infografico Indigenas por Regiao do Brasil"
+        },
+        "15": {
+            "page": 8,
+            "top": 0.45,
+            "bottom": 0.80,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Exposicao de samba - foto e tabela de ingressos"
+        },
+        "17": {
+            "page": 9,
+            "top": 0.44,
+            "bottom": 0.64,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Tabela de besouros com cores e fracoes"
+        },
+        "18": {
+            "page": 10,
+            "top": 0.10,
+            "bottom": 0.74,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Sarcofago em malha quadriculada - area em cinza"
+        },
+        "19": {
+            "page": 11,
+            "top": 0.07,
+            "bottom": 0.55,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "Tirinha formas geometricas - quadrado triangulo piramide"
+        },
+        "20": {
+            "page": 12,
+            "top": 0.06,
+            "bottom": 0.23,
+            "left": 0.06,
+            "right": 0.94,
+            "description": "4 quadros na parede do museu - pinturas lado a lado"
+        }
+    }
+}

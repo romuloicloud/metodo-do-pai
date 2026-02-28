@@ -1,0 +1,6 @@
+Total: 5
+Q9 = /assets/exams/2018_q9.png
+Q14 = /assets/exams/2018_q14.png
+Q16 = /assets/exams/2018_q16.png
+Q17 = /assets/exams/2018_q17.png
+Q19 = /assets/exams/2018_q19.png

@@ -1,0 +1,130 @@
+[
+    {
+        "materia": "Matemática",
+        "topico": "Frações",
+        "teoria": {
+            "html": "<h3>Fala, campeão! 🚀</h3><p>Fração não é bicho de sete cabeças, é só um jeito chique de falar de <strong>pedaços</strong>. Sempre que você divide algo inteiro em partes iguais, você está usando frações.</p><h4>3 Pontos Chave:</h4><ul><li><strong>Numerador (Cima):</strong> Quantas partes você pegou.</li><li><strong>Denominador (Baixo):</strong> Em quantas partes o todo foi dividido.</li><li><strong>Equivalência:</strong> 1/2 é a mesma coisa que 2/4 ou 4/8. Tudo é metade!</li></ul><h4>Exemplo Prático:</h4><p>Imagine uma barra de chocolate com 4 quadradinhos. Se você come 1, comeu <strong>1/4</strong>. Se come 2, comeu <strong>2/4</strong> (que é a metade, ou 1/2). Simples assim!</p>"
+        },
+        "questoes": [
+            {
+                "pergunta": "Pedrinho comprou uma pizza gigante cortada em 8 fatias iguais. Ele e seus amigos comeram 5 fatias. Que fração da pizza SOBROU?",
+                "alternativas": [
+                    "3/8",
+                    "5/8",
+                    "1/8",
+                    "8/5"
+                ],
+                "correta": 0,
+                "explicacao": "Se a pizza tinha 8 fatias e comeram 5, sobraram 8 - 5 = 3 fatias. Então a fração que representa a sobra é 3 partes de um total de 8: <strong>3/8</strong>."
+            },
+            {
+                "pergunta": "Qual das frações abaixo representa a mesma quantidade que 1/2 (metade)?",
+                "alternativas": [
+                    "3/5",
+                    "4/8",
+                    "2/6",
+                    "5/9"
+                ],
+                "correta": 1,
+                "explicacao": "Para ser igual a 1/2, o número de cima tem que ser exatamente a metade do de baixo. Em <strong>4/8</strong>, 4 é metade de 8. Bateu!"
+            },
+            {
+                "pergunta": "Uma prova tinha 20 questões. Maria acertou 3/4 da prova. Quantas questões ela acertou?",
+                "alternativas": [
+                    "10",
+                    "12",
+                    "15",
+                    "18"
+                ],
+                "correta": 2,
+                "explicacao": "Para calcular 3/4 de 20: Primeiro divide pelo de baixo (20 ÷ 4 = 5). Depois multiplica pelo de cima (5 x 3 = 15). Maria acertou <strong>15 questões</strong>."
+            },
+            {
+                "pergunta": "João tem uma coleção de 12 carrinhos. 1/3 deles são vermelhos. Quantos carrinhos NÃO são vermelhos?",
+                "alternativas": [
+                    "4",
+                    "6",
+                    "8",
+                    "9"
+                ],
+                "correta": 2,
+                "explicacao": "Primeiro achamos os vermelhos: 1/3 de 12 é (12 ÷ 3) x 1 = 4. Se 4 são vermelhos, os que NÃO são vermelhos são o resto: 12 - 4 = <strong>8 carrinhos</strong>."
+            },
+            {
+                "pergunta": "Em uma receita de bolo, vai 1/2 xícara de açúcar e 1/4 de xícara de óleo. Qual ingrediente é usado em MAIOR quantidade?",
+                "alternativas": [
+                    "Açúcar",
+                    "Óleo",
+                    "Os dois são iguais",
+                    "Não dá para saber"
+                ],
+                "correta": 0,
+                "explicacao": "Pense em dinheiro/moeda: 1/2 real é 50 centavos. 1/4 de real é 25 centavos. 1/2 é maior que 1/4. Então vai mais <strong>açúcar</strong>."
+            }
+        ]
+    },
+    {
+        "materia": "Português",
+        "topico": "Compreensão Textual",
+        "teoria": {
+            "html": "<h3>Ler é moleza, entender é que são elas! 🧐</h3><p>Compreensão textual é entender o que o texto DIZ (está escrito lá) e o que ele SUGERE (está nas entrelinhas). O segredo é ser um detetive das palavras.</p><h4>3 Pontos Chave:</h4><ul><li><strong>Leia primeiro as perguntas:</strong> Assim você já vai para o texto caçando as respostas.</li><li><strong>Inferência:</strong> É descobrir algo que não está escrito com todas as letras, mas que o texto dá pistas (ex: 'Ele abriu o guarda-chuva' -> Está chovendo).</li><li><strong>Fato vs. Opinião:</strong> Fato é o que aconteceu. Opinião é o que alguém acha sobre o que aconteceu.</li></ul><h4>Exemplo Prático:</h4><p>Texto: 'O goleiro falhou feio e o time perdeu.'<br><strong>Fato:</strong> O time perdeu.<br><strong>Opinião:</strong> O goleiro falhou 'feio' (alguém achou feio, outro pode achar normal).</p>"
+        },
+        "questoes": [
+            {
+                "pergunta": "Texto: 'Luísa chegou em casa com os sapatos cheios de lama e a capa molhada.' O que podemos INFERIR (concluir) sobre o tempo lá fora?",
+                "alternativas": [
+                    "Estava fazendo muito sol.",
+                    "Estava chovendo e talvez com lama no chão.",
+                    "Estava nevando.",
+                    "Estava ventando muito forte."
+                ],
+                "correta": 1,
+                "explicacao": "O texto não disse 'estava chovendo', mas deu pistas: capa molhada + lama. Um detetive textual conclui: <strong>estava chovendo</strong>."
+            },
+            {
+                "pergunta": "Qual frase abaixo expressa uma OPINIÃO e não um FATO?",
+                "alternativas": [
+                    "O Brasil fica na América do Sul.",
+                    "A água ferve a 100 graus.",
+                    "Futebol é o melhor esporte do mundo.",
+                    "O dia tem 24 horas."
+                ],
+                "correta": 2,
+                "explicacao": "Localização, ponto de fervura e horas do dia são fatos comprovados. Dizer que futebol é o <strong>melhor</strong> é gosto pessoal, ou seja, <strong>opinião</strong>."
+            },
+            {
+                "pergunta": "Texto: 'O despertador não tocou. João acordou, olhou a hora e saiu correndo sem tomar café.' Por que João saiu correndo?",
+                "alternativas": [
+                    "Porque ele adora correr.",
+                    "Porque ele estava atrasado.",
+                    "Porque ele queria emagrecer.",
+                    "Porque ele esqueceu a carteira."
+                ],
+                "correta": 1,
+                "explicacao": "Se o despertador falhou e ele saiu sem comer, a pista é clara: ele perdeu a hora! Ele correu porque <strong>estava atrasado</strong>."
+            },
+            {
+                "pergunta": "Em textos narrativos, quem conta a história é o:",
+                "alternativas": [
+                    "Personagem principal.",
+                    "Narrador.",
+                    "Autor.",
+                    "Vilão."
+                ],
+                "correta": 1,
+                "explicacao": "Cuidado! O Autor é quem escreve o livro (pessoa real). Quem 'fala' dentro do texto contando a história é o <strong>Narrador</strong> (que pode ser personagem ou não)."
+            },
+            {
+                "pergunta": "Texto: 'Vende-se bicicleta azul, seminova, com marchas.' Qual é a finalidade desse texto?",
+                "alternativas": [
+                    "Contar uma história.",
+                    "Ensinar a andar de bicicleta.",
+                    "Anunciar/Vender um produto.",
+                    "Convidar para um passeio."
+                ],
+                "correta": 2,
+                "explicacao": "Um texto que começa com 'Vende-se' e descreve um objeto serve para <strong>anunciar/vender</strong> algo. É um classificado."
+            }
+        ]
+    }
+]

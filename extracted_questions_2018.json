@@ -1,0 +1,342 @@
+[
+    {
+        "numero_original": 1,
+        "exam_id": "cp2-2018",
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Texto",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO 1: O conto da mentira (Rogério Augusto)\nO pai de Felipe também conversava com ele: “Um dia você contará uma verdade e ninguém acreditará!”. Felipe ficava pensativo. Mas no dia seguinte...",
+        "enunciado": "A frase sublinhada (Mas no dia seguinte...) indica que Felipe",
+        "alternativas": [
+            "continuava contando mentiras.",
+            "acreditou em uma mentira do pai.",
+            "aprendeu a seguir os conselhos do pai.",
+            "pensava nas mentiras que havia contado."
+        ],
+        "correct_option_index": 0,
+        "image_url": null
+    },
+    {
+        "numero_original": 2,
+        "exam_id": "cp2-2018",
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Texto",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO 1: O conto da mentira",
+        "enunciado": "No Texto 1, Felipe é apresentado em duas fases da vida: na infância, mentia sempre; na fase adulta, tornou-se escritor. Nessas duas fases da vida de Felipe, podemos concluir que há em comum",
+        "alternativas": [
+            "a culpa.",
+            "a alegria.",
+            "a imaginação.",
+            "o arrependimento."
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 3,
+        "exam_id": "cp2-2018",
+        "materia": "Língua Portuguesa",
+        "topico": "Coesão Textual",
+        "dificuldade": "Média",
+        "texto_base": "A mãe largava a louça na pia e corria até a sala. Encontrava o telefone mudo.",
+        "enunciado": "Substituindo o ponto entre as frases por um termo de ligação, poderíamos reescrever o trecho, mantendo o mesmo sentido, do seguinte modo:",
+        "alternativas": [
+            "A mãe largava a louça na pia e corria até a sala sempre que encontrava o telefone mudo.",
+            "A mãe largava a louça na pia e corria até a sala, portanto encontrava o telefone mudo.",
+            "A mãe largava a louça na pia e corria até a sala, pois encontrava o telefone mudo.",
+            "A mãe largava a louça na pia e corria até a sala, porém encontrava o telefone mudo."
+        ],
+        "correct_option_index": 3,
+        "image_url": null
+    },
+    {
+        "numero_original": 4,
+        "exam_id": "cp2-2018",
+        "materia": "Língua Portuguesa",
+        "topico": "Morfologia (Tempos Verbais)",
+        "dificuldade": "Média",
+        "texto_base": "Seu nariz vai ficar igual ao do Pinóquio!",
+        "enunciado": "Assinale a alternativa em que há um verbo usado no mesmo tempo da locução verbal sublinhada (vai ficar).",
+        "alternativas": [
+            "“No momento está escrevendo um conto”.",
+            "“Todo dia Felipe inventava uma mentira”.",
+            "“Um dia você contará uma verdade”.",
+            "“Não existe ninguém de madeira”."
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 5,
+        "exam_id": "cp2-2018",
+        "materia": "Língua Portuguesa",
+        "topico": "Compreensão de Texto",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO 2: É pequeno o número de pais e escolas que refletem sobre boatos na internet (Rosely Sayão)",
+        "enunciado": "De acordo com o segundo parágrafo do Texto 2,",
+        "alternativas": [
+            "os estudantes do ensino fundamental não percebem quando as notícias são falsas.",
+            "a maioria dos estudantes não consegue diferenciar notícias de propagandas.",
+            "8.000 estudantes não diferenciam uma notícia real de uma falsa.",
+            "a maioria dos estudantes já contou alguma mentira na internet."
+        ],
+        "correct_option_index": 1,
+        "image_url": null
+    },
+    {
+        "numero_original": 6,
+        "exam_id": "cp2-2018",
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Texto",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO 2: É pequeno o número de pais e escolas que refletem sobre boatos na internet",
+        "enunciado": "Ainda de acordo com o Texto 2, é correto afirmar que a escola precisa",
+        "alternativas": [
+            "proibir a consulta na internet para a elaboração de trabalhos escolares.",
+            "substituir, urgentemente, a pesquisa na internet por pesquisas na biblioteca.",
+            "orientar os alunos sobre o conteúdo do que leem na internet quando pesquisam.",
+            "fornecer, junto com os pais, o material de pesquisa para realização de trabalhos."
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 7,
+        "exam_id": "cp2-2018",
+        "materia": "Língua Portuguesa",
+        "topico": "Semântica",
+        "dificuldade": "Média",
+        "texto_base": "Muitos trabalhos escolares que os alunos fazem consultando a internet apresentam incorreções históricas gritantes.",
+        "enunciado": "Mantendo o mesmo sentido, o adjetivo “gritantes” pode ser substituído pela palavra",
+        "alternativas": [
+            "absurdas.",
+            "duvidosas.",
+            "admiráveis.",
+            "barulhentas."
+        ],
+        "correct_option_index": 0,
+        "image_url": null
+    },
+    {
+        "numero_original": 8,
+        "exam_id": "cp2-2018",
+        "materia": "Língua Portuguesa",
+        "topico": "Coesão Textual",
+        "dificuldade": "Média",
+        "texto_base": "Releia o primeiro parágrafo do Texto 2.",
+        "enunciado": "O uso da palavra “daqueles” (linha 4) substitui o seguinte termo já utilizado:",
+        "alternativas": [
+            "pais.",
+            "filhos.",
+            "mais novos.",
+            "conteúdos."
+        ],
+        "correct_option_index": 3,
+        "image_url": null
+    },
+    {
+        "numero_original": 9,
+        "exam_id": "cp2-2018",
+        "materia": "Língua Portuguesa",
+        "topico": "Linguagem Mista (História em Quadrinhos)",
+        "dificuldade": "Média",
+        "texto_base": "TEXTO 3: História em quadrinhos de Hector.",
+        "enunciado": "No terceiro quadrinho do Texto 3, o gesto das asas e a expressão facial do amigo de Hector indicam",
+        "alternativas": [
+            "medo e raiva.",
+            "aceitação e curiosidade.",
+            "indiferença e ignorância.",
+            "incompreensão e irritação."
+        ],
+        "correct_option_index": 3,
+        "image_url": "/assets/exams/2018_q9.png"
+    },
+    {
+        "numero_original": 10,
+        "exam_id": "cp2-2018",
+        "materia": "Língua Portuguesa",
+        "topico": "Intertextualidade",
+        "dificuldade": "Média",
+        "texto_base": "Comparando os personagens Felipe (Texto 1) e Hector (Texto 3).",
+        "enunciado": "Assinale a alternativa que apresenta a comparação correta entre os dois personagens.",
+        "alternativas": [
+            "Felipe e Hector têm muita imaginação, por isso transformaram mentiras em histórias.",
+            "Felipe se arrependeu de contar mentiras, mas Hector não vê problema algum nelas.",
+            "Felipe não sentia culpa por contar mentiras, mas Hector se mostra bastante preocupado.",
+            "Felipe e Hector se sentiram culpados e tiveram medo de serem descobertos em suas mentiras."
+        ],
+        "correct_option_index": 1,
+        "image_url": null
+    },
+    {
+        "numero_original": 11,
+        "exam_id": "cp2-2018",
+        "materia": "Matemática",
+        "topico": "Grandezas e Medidas (Tempo)",
+        "dificuldade": "Média",
+        "texto_base": "O diretor de uma escola está organizando o Festival da Matemática e precisa colocar quatro palestras num tempo total de 1h40min, sem intervalos.",
+        "enunciado": "Sabendo que as palestras possuem a mesma duração máxima de tempo, podemos concluir que cada uma terá",
+        "alternativas": [
+            "55min.",
+            "45min.",
+            "35min.",
+            "25min."
+        ],
+        "correct_option_index": 3,
+        "image_url": null
+    },
+    {
+        "numero_original": 12,
+        "exam_id": "cp2-2018",
+        "materia": "Matemática",
+        "topico": "Aritmética (Múltiplos)",
+        "dificuldade": "Média",
+        "texto_base": "Na turma de Francisco, o número de meninas é igual ao triplo do número de meninos.",
+        "enunciado": "Assinale a alternativa que pode representar o número total de estudantes da turma de Francisco.",
+        "alternativas": [
+            "32.",
+            "35.",
+            "39.",
+            "42."
+        ],
+        "correct_option_index": 0,
+        "image_url": null
+    },
+    {
+        "numero_original": 13,
+        "exam_id": "cp2-2018",
+        "materia": "Matemática",
+        "topico": "Operações com Inteiros e Frações",
+        "dificuldade": "Média",
+        "texto_base": "Uma empresa consultou seus 700 funcionários. Um quarto preferiu a embalagem A, dois quintos preferiram a B, alguns a C e 10 não responderam.",
+        "enunciado": "A quantidade de funcionários que optaram pela embalagem C é de",
+        "alternativas": [
+            "255.",
+            "245.",
+            "235.",
+            "225."
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 14,
+        "exam_id": "cp2-2018",
+        "materia": "Matemática",
+        "topico": "Razão e Proporção",
+        "dificuldade": "Média",
+        "texto_base": "Rapha e Gaby são proprietários da cantina. Bernardo e Marina compraram dois sanduiches iguais. Bernardo pediu a vitamina mais cara e Marina um suco que custou 10% a mais que a vitamina. Gastaram R$ 13,30.",
+        "enunciado": "Com base na tabela de preços fornecida, podemos afirmar que",
+        "alternativas": [
+            "Bernardo pediu vitamina de abacate.",
+            "Marina comprou um suco de R$ 2,70.",
+            "Bernardo e Marina pediram hambúrgueres de soja.",
+            "Bernardo e Marina pediram sanduiches de frango desfiado."
+        ],
+        "correct_option_index": 3,
+        "image_url": "/assets/exams/2018_q14.png"
+    },
+    {
+        "numero_original": 15,
+        "exam_id": "cp2-2018",
+        "materia": "Matemática",
+        "topico": "Aritmética (Lucro/Prejuízo)",
+        "dificuldade": "Média",
+        "texto_base": "Goleiro fez aposta de 18 pênaltis. Ganha R$ 10,00 por gol marcado e perde R$ 10,00 por gol sofrido. Lucro final de R$ 60,00.",
+        "enunciado": "A quantidade de gols que Murado sofreu é",
+        "alternativas": [
+            "Um divisor de 3.",
+            "Um múltiplo de 3.",
+            "Um número primo.",
+            "Um número quadrado perfeito."
+        ],
+        "correct_option_index": 1,
+        "image_url": null
+    },
+    {
+        "numero_original": 16,
+        "exam_id": "cp2-2018",
+        "materia": "Matemática",
+        "topico": "Geometria Plana (Perímetro)",
+        "dificuldade": "Média",
+        "texto_base": "Planta de um estacionamento composto por quatro terrenos quadrangulares. As duas maiores áreas possuem 64m² e 121m².",
+        "enunciado": "A medida do perímetro desse estacionamento é igual a",
+        "alternativas": [
+            "60m.",
+            "68m.",
+            "88m.",
+            "185m."
+        ],
+        "correct_option_index": 0,
+        "image_url": "/assets/exams/2018_q16.png"
+    },
+    {
+        "numero_original": 17,
+        "exam_id": "cp2-2018",
+        "materia": "Matemática",
+        "topico": "Tratamento de Informação (Tabelas)",
+        "dificuldade": "Difícil",
+        "texto_base": "Tabela de eleições estudantis com dados de Diego, Priscilla, André, Christine, Natália e Brancos/Nulos.",
+        "enunciado": "Através da tabela fornecida, podemos concluir que a porcentagem de votos recebidos por Christine é",
+        "alternativas": [
+            "55%.",
+            "45%.",
+            "30%.",
+            "15%."
+        ],
+        "correct_option_index": 2,
+        "image_url": "/assets/exams/2018_q17.png"
+    },
+    {
+        "numero_original": 18,
+        "exam_id": "cp2-2018",
+        "materia": "Matemática",
+        "topico": "Expressões Numéricas",
+        "dificuldade": "Fácil",
+        "texto_base": "O resultado da expressão numérica [(47 x 13) + □] : 6 é igual a uma centena e duas unidades.",
+        "enunciado": "O valor do quadradinho (□) é",
+        "alternativas": [
+            "0.",
+            "1.",
+            "2.",
+            "3."
+        ],
+        "correct_option_index": 1,
+        "image_url": null
+    },
+    {
+        "numero_original": 19,
+        "exam_id": "cp2-2018",
+        "materia": "Matemática",
+        "topico": "Geometria Espacial",
+        "dificuldade": "Difícil",
+        "texto_base": "Tirinha sobre formas geométricas (PEDRO letters in boxes).",
+        "enunciado": "A planificação correspondente à figura geométrica tridimensional que aparece na tirinha é",
+        "alternativas": [
+            "(A)",
+            "(B)",
+            "(C)",
+            "(D)"
+        ],
+        "correct_option_index": 2,
+        "image_url": "/assets/exams/2018_q19.png"
+    },
+    {
+        "numero_original": 20,
+        "exam_id": "cp2-2018",
+        "materia": "Matemática",
+        "topico": "Sequências e Lógica",
+        "dificuldade": "Média",
+        "texto_base": "Daniel testa baterias de 30 minutos, ligando um celular a cada 20 minutos.",
+        "enunciado": "Quantos celulares estarão ligados 1h25min após Daniel ter ligado o primeiro celular?",
+        "alternativas": [
+            "1.",
+            "2.",
+            "3.",
+            "4."
+        ],
+        "correct_option_index": 1,
+        "image_url": null
+    }
+]

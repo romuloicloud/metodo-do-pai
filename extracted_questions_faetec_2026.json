@@ -1,0 +1,342 @@
+[
+    {
+        "numero_original": 1,
+        "exam_id": "faetec-2026",
+        "materia": "Língua Portuguesa",
+        "topico": "Interpretação de Texto",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO 1: Após libertação de cavalos de uso no turismo, Ilha de Paquetá recebe “charretes elétricas”. (Fábio Chaves)",
+        "enunciado": "Sobre as ideias contidas no texto I, marque a alternativa correta.",
+        "alternativas": [
+            "A substituição dos cavalos por “charretes elétricas” na Ilha de Paquetá dá início a uma nova tradição sem crueldade com os animais, o que agradou a muitos moradores e turistas.",
+            "Fábio Chaves tomou conhecimento das “charretes elétricas” em Paquetá pela internet, o que é indicado pelo endereço eletrônico que consta ao final do texto.",
+            "Os saudosistas fizeram protestos com cartazes porque gostavam dos cavalos e sentiram falta deles andando livremente pelas ruas de Paquetá.",
+            "A chegada das “charretes elétricas” na Ilha de Paquetá foi boa para os cavalos, que foram libertados, mas não foi boa para os carroceiros."
+        ],
+        "correct_option_index": 0,
+        "image_url": null
+    },
+    {
+        "numero_original": 2,
+        "exam_id": "faetec-2026",
+        "materia": "Língua Portuguesa",
+        "topico": "Coesão Textual (Sinonímia)",
+        "dificuldade": "Fácil",
+        "texto_base": "Texto I: Palavras esquecidas (Rosana Rios)",
+        "enunciado": "Assinale a única alternativa que contém um sinônimo para o substantivo “veículos” no texto:",
+        "alternativas": [
+            "“charretes puxadas por cavalos”.",
+            "“charretes elétricas”.",
+            "“carroças”.",
+            "“cavalos”."
+        ],
+        "correct_option_index": 1,
+        "image_url": null
+    },
+    {
+        "numero_original": 3,
+        "exam_id": "faetec-2026",
+        "materia": "Língua Portuguesa",
+        "topico": "Compreensão de Texto",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO 1: Fragmento sobre saudosistas das charretes.",
+        "enunciado": "Levando em consideração o trecho citado, podemos afirmar que os “saudosistas das charretes”",
+        "alternativas": [
+            "não consideram importante a defesa da tradição e dos animais.",
+            "consideram que a tradição de puxar charretes é prejudicial aos animais.",
+            "julgam a defesa da tradição mais importante que o sofrimento dos cavalos.",
+            "julgam que a tradição de puxar charretes causa sofrimento para qualquer ser."
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 4,
+        "exam_id": "faetec-2026",
+        "materia": "Língua Portuguesa",
+        "topico": "Recursos de Expressividade",
+        "dificuldade": "Média",
+        "texto_base": "TEXTO II: O Cavalinho Branco (Cecília Meireles)",
+        "enunciado": "O texto de Cecília Meireles é muito visual, pois ela usa cores que, misturadas, compõem a descrição do cenário do poema. Esse aspecto fica mais evidente na",
+        "alternativas": [
+            "1ª estrofe.",
+            "2ª estrofe.",
+            "4ª estrofe.",
+            "5ª estrofe."
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 5,
+        "exam_id": "faetec-2026",
+        "materia": "Língua Portuguesa",
+        "topico": "Semântica (Inferência)",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO II: O Cavalinho Branco.",
+        "enunciado": "A palavra “feriado”, na 2ª estrofe do texto II, sugere que o cavalinho branco encontrará",
+        "alternativas": [
+            "descanso.",
+            "sombra.",
+            "passeio.",
+            "comida."
+        ],
+        "correct_option_index": 0,
+        "image_url": null
+    },
+    {
+        "numero_original": 6,
+        "exam_id": "faetec-2026",
+        "materia": "Língua Portuguesa",
+        "topico": "Intertextualidade",
+        "dificuldade": "Média",
+        "texto_base": "Comparação entre Texto I (Informativo) e Texto II (Poema).",
+        "enunciado": "Identifique a estrofe do texto II que mostra uma situação que não ocorrerá mais com os animais de Paquetá após a implantação das “charretes elétricas”.",
+        "alternativas": [
+            "“O cavalo sacode a crina / loura e comprida”",
+            "“e nas verdes ervas atira / sua branca vida.”",
+            "“Seu relincho estremece as raízes / e ele ensina aos ventos”",
+            "“Trabalhou todo o dia, tanto! / desde a madrugada!”"
+        ],
+        "correct_option_index": 3,
+        "image_url": null
+    },
+    {
+        "numero_original": 7,
+        "exam_id": "faetec-2026",
+        "materia": "Língua Portuguesa",
+        "topico": "Compreensão de Texto (Charge)",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO III: Charge do Armandinho sobre zoológico.",
+        "enunciado": "A pergunta do personagem Armandinho, no último quadrinho do texto III, deixa claro que, na opinião dele,",
+        "alternativas": [
+            "a onça-pintada, por ser muito bonita, está presa para ser admirada.",
+            "os animais não merecem estar presos em jaulas nos zoológicos.",
+            "os animais vivem melhor quando estão presos em jaulas.",
+            "a onça-pintada não poderia estar solta na natureza."
+        ],
+        "correct_option_index": 1,
+        "image_url": "/assets/exams/faetec_2026_q7.png"
+    },
+    {
+        "numero_original": 8,
+        "exam_id": "faetec-2026",
+        "materia": "Língua Portuguesa",
+        "topico": "Morfossintaxe (Concordância)",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO III: Adaptação gramatical.",
+        "enunciado": "No texto III, ao substituirmos a palavra “onça-pintada” por TIGRES, no 1º quadrinho, o comentário correto do Armandinho, no 2º quadrinho, será:",
+        "alternativas": [
+            "São muitos lindos!",
+            "São muito lindos!",
+            "É lindo demais!",
+            "É muito lindo!"
+        ],
+        "correct_option_index": 1,
+        "image_url": null
+    },
+    {
+        "numero_original": 9,
+        "exam_id": "faetec-2026",
+        "materia": "Língua Portuguesa",
+        "topico": "Semântica (Pressuposição)",
+        "dificuldade": "Média",
+        "texto_base": "TEXTO IV: Charge do Armandinho sobre humanos e outros animais.",
+        "enunciado": "A palavra “outros”, quando acrescentada à pergunta do Armandinho, no 3º quadrinho da tirinha, quer dizer que",
+        "alternativas": [
+            "os seres humanos não pertencem à natureza.",
+            "os seres humanos não podem ser animais.",
+            "os seres humanos também são animais.",
+            "os seres humanos não são animais."
+        ],
+        "correct_option_index": 2,
+        "image_url": "/assets/exams/faetec_2026_q9.png"
+    },
+    {
+        "numero_original": 10,
+        "exam_id": "faetec-2026",
+        "materia": "Língua Portuguesa",
+        "topico": "Semântica (Sentido do Verbo)",
+        "dificuldade": "Fácil",
+        "texto_base": "TEXTO IV: Diálogo na sala de aula.",
+        "enunciado": "O uso da forma verbal “seria”, no 3º quadrinho, enfatiza que Armandinho estava diante de uma",
+        "alternativas": [
+            "vergonha.",
+            "mentira.",
+            "certeza.",
+            "dúvida."
+        ],
+        "correct_option_index": 3,
+        "image_url": null
+    },
+    {
+        "numero_original": 11,
+        "exam_id": "faetec-2026",
+        "materia": "Matemática",
+        "topico": "Tratamento de Informação (Gráficos)",
+        "dificuldade": "Fácil",
+        "texto_base": "Alturas de monumentos internacionais: Estátua da Unidade (Índia), Buda (China), Liberdade (USA), etc.",
+        "enunciado": "Desses monumentos, o maior deles encontra-se",
+        "alternativas": [
+            "no Brasil.",
+            "na China.",
+            "na Índia.",
+            "no USA."
+        ],
+        "correct_option_index": 2,
+        "image_url": "/assets/exams/faetec_2026_q11.png"
+    },
+    {
+        "numero_original": 12,
+        "exam_id": "faetec-2026",
+        "materia": "Matemática",
+        "topico": "Localização e Coordenadas",
+        "dificuldade": "Fácil",
+        "texto_base": "Localização no mapa do Brasil. RS é C1.",
+        "enunciado": "Portanto, a localização do estado de Rondônia é indicada por:",
+        "alternativas": [
+            "B5",
+            "B3",
+            "C2",
+            "E2"
+        ],
+        "correct_option_index": 1,
+        "image_url": "/assets/exams/faetec_2026_q12.png"
+    },
+    {
+        "numero_original": 13,
+        "exam_id": "faetec-2026",
+        "materia": "Matemática",
+        "topico": "Geometria Espacial (Planificações)",
+        "dificuldade": "Média",
+        "texto_base": "Dado com forma de cubo.",
+        "enunciado": "Assinale a opção que NÃO REPRESENTA uma planificação do cubo",
+        "alternativas": [
+            "Opção A (Cruz latina)",
+            "Opção B (Degrau)",
+            "Opção C (T invertido)",
+            "Opção D (Linha de 5)"
+        ],
+        "correct_option_index": 3,
+        "image_url": "/assets/exams/faetec_2026_q13.png"
+    },
+    {
+        "numero_original": 14,
+        "exam_id": "faetec-2026",
+        "materia": "Matemática",
+        "topico": "Geometria Plana (Figuras Planas)",
+        "dificuldade": "Fácil",
+        "texto_base": "Tangram formando um cavalo.",
+        "enunciado": "Esse cavalo é formado por:",
+        "alternativas": [
+            "dois losangos e três triângulos.",
+            "dois quadriláteros e cinco triângulos.",
+            "três triângulos e três quadriláteros.",
+            "um quadrado, dois trapézios e três triângulos."
+        ],
+        "correct_option_index": 3,
+        "image_url": "/assets/exams/faetec_2026_q14.png"
+    },
+    {
+        "numero_original": 15,
+        "exam_id": "faetec-2026",
+        "materia": "Matemática",
+        "topico": "Grandezas e Medidas (Comprimento)",
+        "dificuldade": "Fácil",
+        "texto_base": "Régua de 10cm medindo um lápis.",
+        "enunciado": "O número decimal que melhor se aproxima do comprimento do lápis de Lucas, em centímetros, é:",
+        "alternativas": [
+            "3,8",
+            "4,0",
+            "4,2",
+            "4,6"
+        ],
+        "correct_option_index": 2,
+        "image_url": "/assets/exams/faetec_2026_q15.png"
+    },
+    {
+        "numero_original": 16,
+        "exam_id": "faetec-2026",
+        "materia": "Matemática",
+        "topico": "Operações Básicas (Volume)",
+        "dificuldade": "Média",
+        "texto_base": "15 crianças consomem 500mL de suco cada. Suco vendido em garrafas de 1L.",
+        "enunciado": "A quantidade mínima de litros (garrafas de 1L) que o anfitrião deverá comprar é:",
+        "alternativas": [
+            "15",
+            "12",
+            "8",
+            "6"
+        ],
+        "correct_option_index": 2,
+        "image_url": null
+    },
+    {
+        "numero_original": 17,
+        "exam_id": "faetec-2026",
+        "materia": "Matemática",
+        "topico": "Geometria Plana (Área e Perímetro)",
+        "dificuldade": "Média",
+        "texto_base": "Figuras P, Q, R, S em malha quadriculada.",
+        "enunciado": "Calculando-se as áreas e os perímetros das quatro figuras, conclui-se que:",
+        "alternativas": [
+            "Três delas possuem o mesmo perímetro e a figura Q possui a maior área.",
+            "Todas as figuras possuem perímetros diferentes.",
+            "Duas delas possuem a mesma área.",
+            "A figura S possui a maior área."
+        ],
+        "correct_option_index": 0,
+        "image_url": "/assets/exams/faetec_2026_q17.png"
+    },
+    {
+        "numero_original": 18,
+        "exam_id": "faetec-2026",
+        "materia": "Matemática",
+        "topico": "Frações",
+        "dificuldade": "Fácil",
+        "texto_base": "Círculo dividido em 10 partes iguais, com 7 partes sombreadas.",
+        "enunciado": "A parte sombreada corresponde à fração:",
+        "alternativas": [
+            "7/3",
+            "10/7",
+            "7/10",
+            "3/7"
+        ],
+        "correct_option_index": 2,
+        "image_url": "/assets/exams/faetec_2026_q18.png"
+    },
+    {
+        "numero_original": 19,
+        "exam_id": "faetec-2026",
+        "materia": "Matemática",
+        "topico": "Aritmética (Multiplicação)",
+        "dificuldade": "Média",
+        "texto_base": "Máquina registradora: *84 x 15 = 4*60.",
+        "enunciado": "Descobrindo-se o algarismo representado pelo asterisco (2), o valor total da compra em reais é:",
+        "alternativas": [
+            "184",
+            "284",
+            "1460",
+            "4260"
+        ],
+        "correct_option_index": 3,
+        "image_url": "/assets/exams/faetec_2026_q19.png"
+    },
+    {
+        "numero_original": 20,
+        "exam_id": "faetec-2026",
+        "materia": "Matemática",
+        "topico": "Operações Básicas (Subtração)",
+        "dificuldade": "Fácil",
+        "texto_base": "Caderno por R$ 34,90. Comprou dois com nota de 100.",
+        "enunciado": "João deverá receber de troco a importância de:",
+        "alternativas": [
+            "R$ 30,20",
+            "R$ 39,20",
+            "R$ 65,10",
+            "R$ 66,10"
+        ],
+        "correct_option_index": 0,
+        "image_url": null
+    }
+]
