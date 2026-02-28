@@ -211,11 +211,19 @@ export const generateTheoryLesson = async (topic: string): Promise<TheoryLesson>
     console.log(`Supabase Cache MISS for topic: ${topic}. Fetching from API.`);
 
     const systemInstruction = 'Act as: Father Method Teacher. Level: 6th Grade (11yo). Output: STRICT JSON. No filler text, just the raw JSON object.';
-    const prompt = `Generate a micro-lesson for the topic: "${topic}". The content must have a theory explanation of max 200 words and exactly 3 simple multiple-choice questions (MCQs). Focus: Pedro II/FAETEC exam level.`;
+    const prompt = `Generate a micro-lesson for the topic: "${topic}". 
+    The content must have:
+    1. A theory explanation of max 300 words, clear and with examples a 11-year-old would understand.
+    2. Exactly 8 multiple-choice questions (MCQs) with progressive difficulty:
+       - Questions 1-3: Fácil (basic concepts)
+       - Questions 4-6: Médio (application)  
+       - Questions 7-8: Desafio (exam-level, tricky)
+    Each question must have 4 options and a detailed explanation of why the correct answer is correct.
+    Focus: Pedro II/FAETEC exam level for 6th grade.`;
 
     try {
         const timeoutPromise = new Promise<never>((_, reject) =>
-            setTimeout(() => reject(new Error('API Timeout')), 10000) // Increased timeout to 10s
+            setTimeout(() => reject(new Error('API Timeout')), 25000) // 25s for 8 questions
         );
 
         const response = await Promise.race([
