@@ -49,7 +49,7 @@ const Login: React.FC = () => {
     return (
         <div className="min-h-screen w-full bg-background-dark flex flex-col items-center justify-center p-4">
             <div className="w-full max-w-sm mx-auto text-center">
-                <img src="/assets/IMG_6432.JPG" alt="Método do Pai" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-primary/50 object-cover" />
+                <div className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-primary/50 bg-gradient-to-br from-indigo-600 to-purple-700 flex items-center justify-center text-5xl shadow-xl shadow-indigo-500/20">🧠</div>
                 <h1 className="text-3xl font-bold text-white mb-2 font-display">Método do Pai</h1>
                 <p className="text-slate-400 mb-8">Sua preparação inteligente para Pedro II e FAETEC.</p>
 
@@ -58,7 +58,7 @@ const Login: React.FC = () => {
                     <p className="text-slate-500 text-sm mb-6">{isLoginMode ? 'Bem-vindo de volta!' : 'Comece sua jornada de aprovação.'}</p>
                     <form onSubmit={handleAuthAction} className="space-y-4">
                         {!isLoginMode && (
-                             <div className="relative">
+                            <div className="relative">
                                 <span className="material-icons-round absolute left-3 top-1/2 -translate-y-1/2 text-slate-500">person</span>
                                 <input
                                     className="w-full bg-slate-900/50 border border-slate-700 rounded-lg py-3 pl-10 pr-4 text-white placeholder-slate-500 focus:ring-2 focus:ring-primary focus:outline-none"
@@ -81,7 +81,7 @@ const Login: React.FC = () => {
                                 required
                             />
                         </div>
-                         <div className="relative">
+                        <div className="relative">
                             <span className="material-icons-round absolute left-3 top-1/2 -translate-y-1/2 text-slate-500">lock</span>
                             <input
                                 className="w-full bg-slate-900/50 border border-slate-700 rounded-lg py-3 pl-10 pr-4 text-white placeholder-slate-500 focus:ring-2 focus:ring-primary focus:outline-none"
@@ -100,7 +100,7 @@ const Login: React.FC = () => {
                             {loading ? 'Processando...' : (isLoginMode ? 'Entrar' : 'Criar Conta')}
                         </button>
                     </form>
-                    
+
                     <button onClick={() => setIsLoginMode(!isLoginMode)} className="text-center text-sm mt-6 text-slate-400 hover:text-white transition-colors">
                         {isLoginMode ? "Não tem uma conta? Cadastre-se" : "Já tem uma conta? Faça login"}
                     </button>
