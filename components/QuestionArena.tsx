@@ -51,7 +51,7 @@ const AiTutorModal: React.FC<{ explanation: AiExplanation | null; onClose: () =>
 };
 
 const SubjectSelector: React.FC<{ onSelect: (subject: 'Português' | 'Matemática') => void }> = ({ onSelect }) => (
-    <div className="flex flex-col items-center justify-center h-full text-center p-6">
+    <div className="flex flex-col items-center justify-center h-full text-center p-6 pb-28">
         <h2 className="text-2xl font-bold text-slate-800 dark:text-white mb-2">O que vamos treinar agora?</h2>
         <p className="text-slate-500 dark:text-slate-400 mb-8 max-w-sm">Escolha uma matéria para focar seus estudos e receber questões direcionadas.</p>
         <div className="flex flex-col sm:flex-row gap-4 w-full max-w-sm">
