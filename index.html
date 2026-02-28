@@ -1,69 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-BR" class="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Método do Pai: AI Tutor</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 
-    <script>
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            fontFamily: {
-              display: ["Lexend", "sans-serif"],
-              grotesk: ["Space Grotesk", "sans-serif"],
-            },
-            colors: {
-              primary: "#164bb6",
-              "accent-gold": "#C5A059",
-              "background-light": "#f6f6f8",
-              "background-dark": "#111621",
-              "surface-dark": "#1a2130",
-              "navy-shade": "#0e2f73",
-              "custom-gold": "#D4AF37",
-              "custom-silver": "#A5A5A5",
-              "custom-bronze": "#CD7F32",
-            },
-            borderRadius: {
-              "DEFAULT": "0.5rem",
-              "lg": "1rem",
-              "xl": "1.5rem",
-              "2xl": "2rem",
-              "3xl": "2.5rem",
-              "full": "9999px"
-            },
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#111621" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>Método do Pai: AI Tutor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+    rel="stylesheet" />
+
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ["Lexend", "sans-serif"],
+            grotesk: ["Space Grotesk", "sans-serif"],
+          },
+          colors: {
+            primary: "#164bb6",
+            "accent-gold": "#C5A059",
+            "background-light": "#f6f6f8",
+            "background-dark": "#111621",
+            "surface-dark": "#1a2130",
+            "navy-shade": "#0e2f73",
+            "custom-gold": "#D4AF37",
+            "custom-silver": "#A5A5A5",
+            "custom-bronze": "#CD7F32",
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "1rem",
+            "xl": "1.5rem",
+            "2xl": "2rem",
+            "3xl": "2.5rem",
+            "full": "9999px"
           },
         },
-      };
-    </script>
-    <style>
-      html {
-        color-scheme: light;
-      }
-      body {
-        font-family: 'Lexend', sans-serif;
-      }
-      /* Custom scrollbar for Webkit browsers */
-      ::-webkit-scrollbar {
-        width: 6px;
-      }
-      ::-webkit-scrollbar-track {
-        background: transparent;
-      }
-      ::-webkit-scrollbar-thumb {
-        background-color: rgba(0, 0, 0, 0.2);
-        border-radius: 3px;
-      }
-      .dark ::-webkit-scrollbar-thumb {
-        background-color: rgba(255, 255, 255, 0.2);
-      }
-    </style>
+      },
+    };
+  </script>
+  <style>
+    html {
+      color-scheme: dark;
+    }
+
+    /* Fix mobile 100vh issue (iOS address bar) */
+    html,
+    body,
+    #root {
+      height: 100%;
+      height: 100dvh;
+      overflow: hidden;
+    }
+
+    body {
+      font-family: 'Lexend', sans-serif;
+    }
+
+    /* Custom scrollbar for Webkit browsers */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 3px;
+    }
+
+    .dark ::-webkit-scrollbar-thumb {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  </style>
   <script type="importmap">
 {
   "imports": {
@@ -76,10 +97,12 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/index.css">
 </head>
-  <body class="bg-background-light dark:bg-background-dark">
-    <div id="root"></div>
+
+<body class="bg-background-light dark:bg-background-dark">
+  <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>

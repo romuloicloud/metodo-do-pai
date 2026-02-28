@@ -151,7 +151,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="w-full h-screen bg-background-light dark:bg-background-dark font-display">
+    <div className="w-full h-full bg-background-light dark:bg-background-dark font-display">
       <div className="max-w-screen-xl mx-auto flex flex-col relative h-full">
         <main className="flex-1 overflow-y-auto">
           {renderView()}
