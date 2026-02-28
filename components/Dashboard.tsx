@@ -71,10 +71,19 @@ const Dashboard: React.FC<{ setView?: (view: View) => void }> = ({ setView }) =>
                     <span className="material-icons-round text-2xl">analytics</span>
                     <h1 className="text-lg font-semibold tracking-tight">Painel de Insights</h1>
                 </div>
-                <button className="p-2 rounded-full relative">
-                    <span className="material-icons-round">notifications</span>
-                    <span className="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full border border-primary"></span>
-                </button>
+                <div className="flex items-center gap-2">
+                    <button className="p-2 rounded-full relative">
+                        <span className="material-icons-round">notifications</span>
+                        <span className="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full border border-primary"></span>
+                    </button>
+                    <button
+                        onClick={() => supabase.auth.signOut()}
+                        className="p-2 rounded-full hover:bg-white/20 transition-colors"
+                        title="Sair"
+                    >
+                        <span className="material-icons-round">logout</span>
+                    </button>
+                </div>
             </header>
 
             <main className="p-4 space-y-5 max-w-5xl mx-auto w-full">

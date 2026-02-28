@@ -49,7 +49,7 @@ const Login: React.FC = () => {
     return (
         <div className="min-h-screen w-full bg-background-dark flex flex-col items-center justify-center p-4">
             <div className="w-full max-w-sm mx-auto text-center">
-                <div className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-primary/50 bg-gradient-to-br from-indigo-600 to-purple-700 flex items-center justify-center text-5xl shadow-xl shadow-indigo-500/20">🧠</div>
+                <img src="/assets/avatar-pai.jpg" alt="Método do Pai" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-primary/50 object-cover shadow-xl shadow-indigo-500/20" />
                 <h1 className="text-3xl font-bold text-white mb-2 font-display">Método do Pai</h1>
                 <p className="text-slate-400 mb-8">Sua preparação inteligente para Pedro II e FAETEC.</p>
 
