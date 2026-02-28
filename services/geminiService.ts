@@ -4,9 +4,18 @@ import { mockQuestions, mockLesson, mockLessonPortugues } from './mockData';
 import { supabase } from './supabaseClient';
 import { syllabus } from './syllabusData';
 
-// A chave de API é obtida a partir de variáveis de ambiente,
-// conforme as boas práticas de segurança. Isso corrige o erro que causava a tela preta.
-const ai = new GoogleGenAI({ apiKey: import.meta.env.GEMINI_API_KEY || (typeof process !== 'undefined' && process.env?.GEMINI_API_KEY) || '' });
+// A chave de API é injetada pelo Vite via define no vite.config.ts
+// Usamos uma inicialização segura que não crasha o app se a chave estiver ausente
+let ai: any;
+try {
+    const apiKey = (import.meta as any).env?.GEMINI_API_KEY || process.env.GEMINI_API_KEY || process.env.API_KEY || '';
+    if (apiKey) {
+        ai = new GoogleGenAI({ apiKey });
+    }
+} catch (e) {
+    console.warn('GoogleGenAI não inicializado:', e);
+}
+
 
 const editalContentPlaceholder = `
 CONTEÚDO PROGRAMÁTICO - COLÉGO PEDRO II / FAETEC (6º ANO)
