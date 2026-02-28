@@ -40,10 +40,23 @@ export const fetchDiagnosticQuestions = async (): Promise<Question[]> => {
 
     if (matError) console.error('Erro buscando questões MAT:', matError);
 
-    // Embaralhar e pegar 5 de cada
+    // Filtrar questões que referenciam textos mas não têm o base_text preenchido
+    const hasValidText = (q: any): boolean => {
+        const text = (q.text || '').toLowerCase();
+        const needsBaseText = text.includes('texto i') || text.includes('texto ii') ||
+            text.includes('poema') || text.includes('trecho') ||
+            text.includes('leia o') || text.includes('leia a');
+        // Se a questão referencia um texto, só usar se tiver base_text
+        if (needsBaseText && !q.base_text) return false;
+        return true;
+    };
+
+    // Embaralhar e pegar 5 de cada (só questões com textos completos)
     const shuffled = (arr: any[]) => arr.sort(() => Math.random() - 0.5);
-    const selectedPT = shuffled(ptQuestions || []).slice(0, 5);
-    const selectedMAT = shuffled(matQuestions || []).slice(0, 5);
+    const validPT = (ptQuestions || []).filter(hasValidText);
+    const validMAT = (matQuestions || []).filter(hasValidText);
+    const selectedPT = shuffled(validPT).slice(0, 5);
+    const selectedMAT = shuffled(validMAT).slice(0, 5);
 
     // Mapear para o formato Question
     const mapToQuestion = (q: any): Question => ({
