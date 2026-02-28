@@ -1028,16 +1028,14 @@
         }
 
         // ===== STRIPE CHECKOUT =====
-        // TODO: Replace with your actual Stripe checkout links
         function checkout(plan) {
-            // When you set up Stripe, replace these URLs with your Stripe Payment Links
             const links = {
-                'lancamento': 'https://buy.stripe.com/SEU_LINK_LANCAMENTO',
-                'mensal_normal': 'https://buy.stripe.com/SEU_LINK_MENSAL',
+                'lancamento': 'https://buy.stripe.com/eVqeVffzF6s03ief41bo400',
+                'mensal_normal': 'https://buy.stripe.com/6oUbJ34V1cQocSO7Bzbo401',
             };
 
             const url = links[plan];
-            if (url && !url.includes('SEU_LINK')) {
+            if (url) {
                 window.open(url, '_blank');
             } else {
                 alert('Em breve! O pagamento será ativado no lançamento oficial.');
