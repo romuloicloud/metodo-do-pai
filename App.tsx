@@ -6,6 +6,7 @@ import StudyCenter from './components/StudyCenter';
 import PastExamArena from './components/PastExamArena';
 import BottomNav from './components/BottomNav';
 import Login from './components/Login';
+import PaywallScreen from './components/PaywallScreen';
 import DiagnosticWelcome from './components/DiagnosticWelcome';
 import DiagnosticArena from './components/DiagnosticArena';
 import DiagnosticResult from './components/DiagnosticResult';
@@ -24,6 +25,7 @@ const App: React.FC = () => {
   const [activePhase, setActivePhase] = useState<JourneyPhase | null>(null);
   const [diagnosticResult, setDiagnosticResult] = useState<DiagResultType | null>(null);
   const [loading, setLoading] = useState(true);
+  const [isPaid, setIsPaid] = useState<boolean | null>(null);
   const [checkingDiagnostic, setCheckingDiagnostic] = useState(false);
 
   useEffect(() => {
@@ -59,12 +61,48 @@ const App: React.FC = () => {
     }
   }, [session]);
 
+  // Verificar se o usuário é pagante quando faz login
+  useEffect(() => {
+    const checkPayment = async () => {
+      if (session?.user) {
+        const { data, error } = await supabase
+          .from('profiles')
+          .select('is_paid')
+          .eq('id', session.user.id)
+          .single();
+
+        if (error) {
+          console.error('Erro ao verificar pagamento:', error);
+          setIsPaid(false);
+        } else {
+          setIsPaid(data?.is_paid ?? false);
+        }
+      } else {
+        setIsPaid(null);
+      }
+    };
+    checkPayment();
+  }, [session]);
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+  };
+
   if (loading) {
     return <div className="bg-background-dark min-h-screen"></div>;
   }
 
   if (!session) {
     return <Login />;
+  }
+
+  // Bloquear acesso se não pagou
+  if (isPaid === null) {
+    return <div className="bg-background-dark min-h-screen flex items-center justify-center"><span className="text-white">Verificando acesso...</span></div>;
+  }
+
+  if (!isPaid) {
+    return <PaywallScreen userEmail={session.user.email} onLogout={handleLogout} />;
   }
 
   const handleSelectExam = (exam: Exam) => {

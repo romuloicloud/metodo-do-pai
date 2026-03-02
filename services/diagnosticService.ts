@@ -40,14 +40,16 @@ export const fetchDiagnosticQuestions = async (): Promise<Question[]> => {
 
     if (matError) console.error('Erro buscando questões MAT:', matError);
 
-    // Filtrar questões que referenciam textos mas não têm o base_text preenchido
+    // Filtrar questões que referenciam textos mas não têm o conteúdo real
+    // base_text precisa ter 200+ chars para ser considerado conteúdo real (e não só título)
     const hasValidText = (q: any): boolean => {
         const text = (q.text || '').toLowerCase();
         const needsBaseText = text.includes('texto i') || text.includes('texto ii') ||
-            text.includes('poema') || text.includes('trecho') ||
-            text.includes('leia o') || text.includes('leia a');
-        // Se a questão referencia um texto, só usar se tiver base_text
-        if (needsBaseText && !q.base_text) return false;
+            text.includes('texto iii') || text.includes('poema') || text.includes('trecho') ||
+            text.includes('leia o') || text.includes('leia a') ||
+            text.includes('charge') || text.includes('tirinha') || text.includes('quadrinho');
+        // Se a questão referencia um texto, só usar se tiver base_text com conteúdo real (200+ chars)
+        if (needsBaseText && (!q.base_text || q.base_text.length < 200)) return false;
         return true;
     };
 

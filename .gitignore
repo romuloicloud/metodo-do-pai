@@ -33,3 +33,6 @@ dist-ssr
 .agent/
 _agent/
 _agents/
+
+.vercel
+.env*.local

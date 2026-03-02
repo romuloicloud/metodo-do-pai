@@ -91,8 +91,8 @@ const Dashboard: React.FC<{ setView?: (view: View) => void }> = ({ setView }) =>
     };
 
     return (
-        <div className="bg-background-light dark:bg-background-dark min-h-full">
-            <header className="bg-primary text-white px-6 py-4 flex items-center justify-between shadow-lg">
+        <div className="bg-background-light dark:bg-background-dark min-h-full pb-safe">
+            <header className="bg-primary text-white px-4 py-3 flex items-center justify-between shadow-lg">
                 <div className="flex items-center gap-3">
                     <span className="material-icons-round text-2xl">analytics</span>
                     <h1 className="text-lg font-semibold tracking-tight">Painel de Insights</h1>
@@ -112,7 +112,7 @@ const Dashboard: React.FC<{ setView?: (view: View) => void }> = ({ setView }) =>
                 </div>
             </header>
 
-            <main className="p-4 space-y-5 max-w-5xl mx-auto w-full">
+            <main className="p-3 space-y-4 max-w-5xl mx-auto w-full">
                 <div className="flex items-center gap-4 px-2">
                     <AvatarUpload
                         userId={userId}
@@ -227,7 +227,7 @@ const Dashboard: React.FC<{ setView?: (view: View) => void }> = ({ setView }) =>
                 </div>
 
             </main>
-            <div className="h-24"></div>
+            <div className="h-28"></div>
         </div>
     );
 };

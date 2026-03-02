@@ -254,10 +254,10 @@ const PastExamArena: React.FC<PastExamArenaProps> = ({ exam, onFinishExam }) => 
 
     return (
         <div className="relative h-full flex flex-col w-full max-w-3xl mx-auto">
-            <header className="px-6 py-4 flex flex-col gap-2">
-                <button onClick={onFinishExam} className="flex items-center gap-1 text-sm text-slate-500 self-start">
-                    <span className="material-icons-round text-base">close</span>
-                    Sair do Simulado
+            <header className="px-4 py-3 flex flex-col gap-1">
+                <button onClick={onFinishExam} className="flex items-center gap-2 text-sm text-red-400 hover:text-red-300 self-start py-2 px-3 -ml-3 rounded-lg active:bg-red-500/10 transition-colors min-h-[44px]">
+                    <span className="material-icons-round text-xl">close</span>
+                    <span className="font-semibold">Sair do Simulado</span>
                 </button>
                 <div className="flex justify-between items-center">
                     <h1 className="text-sm font-bold text-primary dark:text-blue-400 truncate">{exam.name}</h1>
@@ -278,7 +278,7 @@ const PastExamArena: React.FC<PastExamArenaProps> = ({ exam, onFinishExam }) => 
                     {currentQuestion.imageUrl && !imageError && (
                         <img
                             src={currentQuestion.imageUrl}
-                            className="w-full h-auto rounded-lg my-4 shadow-sm border border-slate-200 dark:border-slate-800"
+                            className="w-full h-auto max-h-[40vh] object-contain rounded-lg my-3 shadow-sm border border-slate-200 dark:border-slate-800"
                             alt="Ilustração da questão"
                             onError={handleImageError}
                         />
@@ -286,7 +286,7 @@ const PastExamArena: React.FC<PastExamArenaProps> = ({ exam, onFinishExam }) => 
                     {currentQuestion.imageUrl2 && (
                         <img
                             src={currentQuestion.imageUrl2}
-                            className="w-full h-auto rounded-lg my-4 shadow-sm border border-slate-200 dark:border-slate-800"
+                            className="w-full h-auto max-h-[40vh] object-contain rounded-lg my-3 shadow-sm border border-slate-200 dark:border-slate-800"
                             alt="Ilustração da questão (parte 2)"
                         />
                     )}
@@ -303,7 +303,7 @@ const PastExamArena: React.FC<PastExamArenaProps> = ({ exam, onFinishExam }) => 
                 </div>
                 {/* Barra de navegação fixa no rodapé */}
                 {!showTutor && (
-                    <div className="sticky bottom-0 left-0 right-0 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-t border-slate-200 dark:border-slate-800 px-6 py-3 flex items-center justify-between z-50 -mx-6 mt-4">
+                    <div className="sticky bottom-0 left-0 right-0 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-t border-slate-200 dark:border-slate-800 px-4 py-3 pb-safe flex items-center justify-between z-50 -mx-4 mt-4">
                         <button
                             onClick={handlePreviousQuestion}
                             disabled={questionIndex === 0}

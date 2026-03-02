@@ -37,6 +37,7 @@ const Login: React.FC = () => {
                 });
                 if (error) throw error;
                 setMessage('Conta criada com sucesso! Verifique seu e-mail para confirmação.');
+                setIsLoginMode(true);
             }
         } catch (error: any) {
             console.error('Auth error:', error);
@@ -55,7 +56,7 @@ const Login: React.FC = () => {
 
                 <div className="bg-surface-dark p-8 rounded-xl border border-slate-800">
                     <h2 className="font-bold text-white text-lg mb-1">{isLoginMode ? 'Acesse sua conta' : 'Crie sua conta'}</h2>
-                    <p className="text-slate-500 text-sm mb-6">{isLoginMode ? 'Bem-vindo de volta!' : 'Comece sua jornada de aprovação.'}</p>
+                    <p className="text-slate-500 text-sm mb-6">{isLoginMode ? 'Bem-vindo de volta!' : 'Preencha para começar.'}</p>
                     <form onSubmit={handleAuthAction} className="space-y-4">
                         {!isLoginMode && (
                             <div className="relative">
@@ -107,6 +108,12 @@ const Login: React.FC = () => {
 
                     {message && <p className="text-center text-sm mt-4 text-green-400">{message}</p>}
                     {error && <p className="text-center text-sm mt-4 text-red-400">{error}</p>}
+                </div>
+
+                <div className="mt-6">
+                    <a href="https://metododopai.com" target="_blank" rel="noopener noreferrer" className="text-slate-500 text-xs hover:text-slate-300 transition-colors">
+                        Ainda não é assinante? Conheça o Método do Pai →
+                    </a>
                 </div>
             </div>
         </div>

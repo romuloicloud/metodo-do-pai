@@ -27,7 +27,7 @@ const NavItem: React.FC<{
 
 const BottomNav: React.FC<BottomNavProps> = ({ currentView, setView }) => {
   return (
-    <nav className="absolute bottom-0 left-0 right-0 h-20 bg-white/80 dark:bg-slate-900/80 backdrop-blur-lg border-t border-slate-200 dark:border-slate-800 flex items-start justify-around pt-3 z-50">
+    <nav className="absolute bottom-0 left-0 right-0 bg-white/80 dark:bg-slate-900/80 backdrop-blur-lg border-t border-slate-200 dark:border-slate-800 flex items-start justify-around pt-2 pb-safe z-50" style={{ minHeight: '64px' }}>
       <NavItem
         label="Painel"
         icon={<DashboardIcon />}

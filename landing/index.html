@@ -9,6 +9,16 @@
     <meta name="theme-color" content="#111621">
     <title>Método do Pai — Preparação Pedro II e FAETEC com IA</title>
     <link rel="icon" type="image/png" href="/assets/app-icon.png">
+
+    <!-- Google Ads - Rastreamento de Conversões -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-954242501"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-954242501');
+    </script>
+
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
@@ -280,40 +290,92 @@
             margin: 0 auto 56px;
         }
 
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 28px;
+        /* Botão CTA Verde (Conversão) */
+        .btn-cta {
+            display: inline-block;
+            padding: 18px 48px;
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            color: #fff;
+            font-weight: 800;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+            box-shadow: 0 6px 30px rgba(34, 197, 94, 0.4);
+            transition: all 0.3s;
+            text-transform: uppercase;
         }
 
-        .feature-card {
+        .btn-cta:hover {
+            transform: translateY(-2px) scale(1.03);
+            box-shadow: 0 10px 40px rgba(34, 197, 94, 0.55);
+        }
+
+        /* Lista de Benefícios */
+        .benefits-list {
+            max-width: 680px;
+            margin: 0 auto 48px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
             background: var(--surface-light);
-            border-radius: 20px;
-            padding: 32px 24px;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 16px;
+            padding: 24px 20px;
+            text-align: left;
+            transition: transform 0.3s;
         }
 
-        .feature-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+        .benefit-item:hover {
+            transform: translateX(4px);
         }
 
-        .feature-card .material-icons-round {
-            font-size: 2.4rem;
-            color: var(--gold);
-            margin-bottom: 16px;
-        }
-
-        .feature-card h4 {
+        .benefit-item h4 {
             font-weight: 700;
-            margin-bottom: 8px;
+            margin-bottom: 4px;
+            font-size: 1.05rem;
         }
 
-        .feature-card p {
+        .benefit-item p {
             color: var(--text-muted);
-            font-size: 0.88rem;
+            font-size: 0.9rem;
+            margin: 0;
         }
+
+        /* Caixa de Garantia */
+        .guarantee-box {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            max-width: 680px;
+            margin: 0 auto;
+            background: rgba(34, 197, 94, 0.08);
+            border: 2px solid rgba(34, 197, 94, 0.3);
+            border-radius: 20px;
+            padding: 32px 28px;
+            text-align: left;
+        }
+
+        .guarantee-box h3 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            color: var(--success);
+        }
+
+        .guarantee-box p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
 
         /* ========== PROVA SOCIAL ========== */
         .social-proof {
@@ -725,11 +787,14 @@
     <!-- ====== HERO ====== -->
     <section class="hero" id="inicio">
         <div class="hero-content">
-            <div class="hero-badge">🚀 Lançamento — Oferta por tempo limitado</div>
-            <h1>O método que aprovou meu filho no <span>Pedro II</span> e na <span>FAETEC</span></h1>
-            <p>Um tutor de inteligência artificial que estuda COM o seu filho. Questões reais, explicações como
-                conversa, e um ranking que motiva.</p>
-            <a href="#preco" class="btn btn-primary">QUERO O MÉTODO →</a>
+            <div class="hero-badge">🚀 Lançamento — Vagas Limitadas</div>
+            <h1>Como meu filho foi aprovado no <span>Pedro II</span> e na <span>FAETEC</span> estudando em casa — e como
+                o seu também pode.</h1>
+            <p
+                style="font-size: 1.1rem; color: rgba(255,255,255,0.85); font-style: italic; max-width: 620px; margin: 0 auto 36px;">
+                "Eu não sou professor de cursinho, sou um pai que descobriu o caminho das pedras para vencer a
+                concorrência de 40 por vaga."</p>
+            <a href="#preco" class="btn btn-cta">QUERO APROVAR MEU FILHO AGORA</a>
             <div class="hero-stats">
                 <div class="hero-stat">
                     <h3>2</h3>
@@ -774,45 +839,66 @@
         </div>
     </section>
 
-    <!-- ====== FUNCIONALIDADES ====== -->
+    <!-- ====== O QUE TEM DENTRO (BENEFÍCIOS) ====== -->
     <section class="features-section" id="funcionalidades">
         <div class="container">
-            <h2>Conheça o <span>Método do Pai</span></h2>
-            <p>Um app completo que transforma o estudo numa jornada inteligente e motivadora.</p>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <span class="material-icons-round">psychology</span>
-                    <h4>Diagnóstico Inteligente</h4>
-                    <p>Identifica os pontos fracos do aluno em minutos. Matemática ou Português — o app sabe por onde
-                        começar.</p>
+            <h2>O que tem dentro do <span>Método do Pai</span>?</h2>
+            <p>Tudo o que seu filho precisa para ser aprovado — direto no celular.</p>
+
+            <div class="benefits-list">
+                <div class="benefit-item"><span class="material-icons-round"
+                        style="color: var(--success); font-size: 1.8rem;">check_circle</span>
+                    <div>
+                        <h4>Cronograma de estudos estratégico</h4>
+                        <p>Plano organizado dia a dia, focado no que realmente importa para a prova.</p>
+                    </div>
                 </div>
-                <div class="feature-card">
-                    <span class="material-icons-round">school</span>
-                    <h4>Teoria + Exercícios</h4>
-                    <p>Aulas explicadas com linguagem de pai pra filho. Depois, questões com dificuldade progressiva.
-                    </p>
+                <div class="benefit-item"><span class="material-icons-round"
+                        style="color: var(--success); font-size: 1.8rem;">check_circle</span>
+                    <div>
+                        <h4>As matérias que realmente caem</h4>
+                        <p>Sem encheção de linguiça. Só o que é cobrado nas provas do Pedro II e FAETEC.</p>
+                    </div>
                 </div>
-                <div class="feature-card">
-                    <span class="material-icons-round">quiz</span>
-                    <h4>Questões de Provas Reais</h4>
-                    <p>Banco com questões de provas anteriores do Pedro II e FAETEC. Treinamento com o que realmente
-                        cai.</p>
+                <div class="benefit-item"><span class="material-icons-round"
+                        style="color: var(--success); font-size: 1.8rem;">check_circle</span>
+                    <div>
+                        <h4>IA tutor 24h que explica cada erro</h4>
+                        <p>Errou? A inteligência artificial explica com linguagem de pai pra filho. Como ter um
+                            professor particular 24h.</p>
+                    </div>
                 </div>
-                <div class="feature-card">
-                    <span class="material-icons-round">smart_toy</span>
-                    <h4>IA que Explica</h4>
-                    <p>Errou? A inteligência artificial explica o porquê com linguagem simples. Como ter um tutor
-                        particular 24h.</p>
+                <div class="benefit-item"><span class="material-icons-round"
+                        style="color: var(--success); font-size: 1.8rem;">check_circle</span>
+                    <div>
+                        <h4>O segredo da organização para o dia da prova</h4>
+                        <p>Diagnóstico inteligente que identifica pontos fracos e monta o plano perfeito.</p>
+                    </div>
                 </div>
-                <div class="feature-card">
-                    <span class="material-icons-round">emoji_events</span>
-                    <h4>Ranking e Conquistas</h4>
-                    <p>Competição saudável entre amigos. Badges, pontos e ranking que motivam a estudar mais.</p>
+                <div class="benefit-item"><span class="material-icons-round"
+                        style="color: var(--success); font-size: 1.8rem;">check_circle</span>
+                    <div>
+                        <h4>Acesso imediato pelo celular</h4>
+                        <p>Não precisa instalar nada. Abre no celular e começa a estudar na hora.</p>
+                    </div>
                 </div>
-                <div class="feature-card">
-                    <span class="material-icons-round">insights</span>
-                    <h4>Painel dos Pais</h4>
-                    <p>Acompanhe o progresso do seu filho. Veja acertos, erros e evolução por matéria em tempo real.</p>
+                <div class="benefit-item"><span class="material-icons-round"
+                        style="color: var(--success); font-size: 1.8rem;">check_circle</span>
+                    <div>
+                        <h4>500+ questões de provas reais</h4>
+                        <p>Banco com questões de provas anteriores do Pedro II e FAETEC. Treinamento com o que realmente
+                            cai.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GARANTIA -->
+            <div class="guarantee-box">
+                <span class="material-icons-round" style="font-size: 3rem; color: var(--success);">verified_user</span>
+                <div>
+                    <h3>Garantia Risco Zero: 7 dias para testar</h3>
+                    <p>Se não gostar, eu devolvo seu dinheiro. Sem perguntas, sem burocracia. Você não tem nada a
+                        perder.</p>
                 </div>
             </div>
         </div>
@@ -859,7 +945,7 @@
             <p>Menos que um cursinho. Mais eficiente que qualquer material genérico.</p>
 
             <div class="countdown-container" id="countdown-container">
-                <div class="countdown-label">⏰ Oferta de lançamento termina em:</div>
+                <div class="countdown-label">🔥 LOTE DE LANÇAMENTO — VAGAS LIMITADAS</div>
                 <div class="countdown" id="countdown">
                     <div class="countdown-item">
                         <span class="number" id="hours">48</span>
@@ -887,21 +973,24 @@
                         <li><span class="material-icons-round">check_circle</span> IA tutor 24h</li>
                         <li><span class="material-icons-round">check_circle</span> Provas reais Pedro II/FAETEC</li>
                         <li><span class="material-icons-round">check_circle</span> Painel de acompanhamento</li>
+                        <li><span class="material-icons-round">check_circle</span> Garantia de 7 dias</li>
                     </ul>
                     <a href="#" class="btn btn-outline" onclick="checkout('mensal_normal')">ASSINAR</a>
                 </div>
                 <div class="price-card featured">
-                    <h3>Lançamento 48h</h3>
+                    <h3>🔥 Lote de Lançamento</h3>
                     <div class="price-old">De R$ 197/mês</div>
                     <div class="price">R$ 97<small>/mês</small></div>
-                    <div class="price-period">50% OFF — só nas primeiras 48h!</div>
+                    <div class="price-period">Válido apenas por 48h ou para as primeiras 50 vagas</div>
                     <ul>
                         <li><span class="material-icons-round">check_circle</span> Tudo do plano mensal</li>
-                        <li><span class="material-icons-round">check_circle</span> Desconto vitalício</li>
+                        <li><span class="material-icons-round">check_circle</span> Desconto vitalício de 50%</li>
                         <li><span class="material-icons-round">check_circle</span> Suporte prioritário</li>
                         <li><span class="material-icons-round">check_circle</span> Novos conteúdos primeiro</li>
+                        <li><span class="material-icons-round">check_circle</span> Garantia Risco Zero de 7 dias</li>
                     </ul>
-                    <a href="#" class="btn btn-primary" onclick="checkout('lancamento')">GARANTIR MINHA VAGA →</a>
+                    <a href="#" class="btn btn-cta" onclick="checkout('lancamento')" style="font-size: 1.15rem;">QUERO
+                        APROVAR MEU FILHO AGORA</a>
                 </div>
             </div>
         </div>
@@ -1029,6 +1118,7 @@
 
         // ===== STRIPE CHECKOUT =====
         function checkout(plan) {
+            const APP_URL = 'https://app.metododopai.com';
             const links = {
                 'lancamento': 'https://buy.stripe.com/eVqeVffzF6s03ief41bo400',
                 'mensal_normal': 'https://buy.stripe.com/6oUbJ34V1cQocSO7Bzbo401',
@@ -1036,7 +1126,9 @@
 
             const url = links[plan];
             if (url) {
-                window.open(url, '_blank');
+                // Redireciona para o app após pagamento bem-sucedido
+                const checkoutUrl = url + '?success_url=' + encodeURIComponent(APP_URL);
+                window.location.href = checkoutUrl;
             } else {
                 alert('Em breve! O pagamento será ativado no lançamento oficial.');
             }

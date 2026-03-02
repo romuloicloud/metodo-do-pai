@@ -87,6 +87,20 @@
     .dark ::-webkit-scrollbar-thumb {
       background-color: rgba(255, 255, 255, 0.2);
     }
+
+    /* Safe area para dispositivos com notch/gesture bar */
+    .pb-safe {
+      padding-bottom: env(safe-area-inset-bottom, 16px);
+    }
+
+    /* Botões mobile com tamanho mínimo de toque (44px) */
+    @media (max-width: 768px) {
+
+      button,
+      a[role="button"] {
+        min-height: 44px;
+      }
+    }
   </style>
   <link rel="stylesheet" href="/index.css">
 </head>
