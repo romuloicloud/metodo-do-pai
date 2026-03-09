@@ -965,7 +965,7 @@
             <div class="price-cards">
                 <div class="price-card">
                     <h3>Plano Mensal</h3>
-                    <div class="price-old">R$ 197/mês</div>
+                    <div class="price-old">R$ 397/mês</div>
                     <div class="price">R$ 197<small>/mês</small></div>
                     <div class="price-period">Após o período promocional</div>
                     <ul>
@@ -1068,9 +1068,11 @@
     </footer>
 
     <script>
+        let isPromoActive = true;
+
         // ===== COUNTDOWN TIMER 48H =====
         function startCountdown() {
-            const STORAGE_KEY = 'metodo_pai_launch_end';
+            const STORAGE_KEY = 'metodo_pai_launch_end_v2';
             let endTime = localStorage.getItem(STORAGE_KEY);
 
             if (!endTime) {
@@ -1088,10 +1090,21 @@
                 const diff = target - now;
 
                 if (diff <= 0) {
+                    isPromoActive = false;
                     document.getElementById('hours').textContent = '00';
                     document.getElementById('minutes').textContent = '00';
                     document.getElementById('seconds').textContent = '00';
                     document.getElementById('countdown-container').querySelector('.countdown-label').textContent = '⏰ Oferta encerrada!';
+
+                    // Desabilita visualmente o botão de oferta
+                    const btnLancamento = document.querySelector('.price-card.featured .btn-cta');
+                    if (btnLancamento) {
+                        btnLancamento.textContent = 'OFERTA ENCERRADA';
+                        btnLancamento.style.background = '#555';
+                        btnLancamento.style.boxShadow = 'none';
+                        btnLancamento.style.cursor = 'not-allowed';
+                        btnLancamento.style.pointerEvents = 'none';
+                    }
                     return;
                 }
 
@@ -1118,6 +1131,11 @@
 
         // ===== STRIPE CHECKOUT =====
         function checkout(plan) {
+            if (plan === 'lancamento' && !isPromoActive) {
+                alert('Esta oferta promocional já foi encerrada. Por favor, escolha o Plano Mensal padrão.');
+                return;
+            }
+
             const APP_URL = 'https://app.metododopai.com';
             const links = {
                 'lancamento': 'https://buy.stripe.com/eVqeVffzF6s03ief41bo400',
