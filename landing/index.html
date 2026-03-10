@@ -944,29 +944,12 @@
             <h2>Invista no futuro do seu filho</h2>
             <p>Menos que um cursinho. Mais eficiente que qualquer material genérico.</p>
 
-            <div class="countdown-container" id="countdown-container">
-                <div class="countdown-label">🔥 LOTE DE LANÇAMENTO — VAGAS LIMITADAS</div>
-                <div class="countdown" id="countdown">
-                    <div class="countdown-item">
-                        <span class="number" id="hours">48</span>
-                        <span class="label">horas</span>
-                    </div>
-                    <div class="countdown-item">
-                        <span class="number" id="minutes">00</span>
-                        <span class="label">min</span>
-                    </div>
-                    <div class="countdown-item">
-                        <span class="number" id="seconds">00</span>
-                        <span class="label">seg</span>
-                    </div>
-                </div>
-            </div>
+
 
             <div class="price-cards">
                 <div class="price-card">
                     <h3>Plano Mensal</h3>
-                    <div class="price-old">R$ 397/mês</div>
-                    <div class="price">R$ 197<small>/mês</small></div>
+                    <div class="price">R$ 99,99<small>/mês</small></div>
                     <div class="price-period">Após o período promocional</div>
                     <ul>
                         <li><span class="material-icons-round">check_circle</span> Acesso completo ao app</li>
@@ -979,9 +962,9 @@
                 </div>
                 <div class="price-card featured">
                     <h3>🔥 Lote de Lançamento</h3>
-                    <div class="price-old">De R$ 197/mês</div>
-                    <div class="price">R$ 97<small>/mês</small></div>
-                    <div class="price-period">Válido apenas por 48h ou para as primeiras 50 vagas</div>
+                    <div class="price-old">De R$ 99,99/mês</div>
+                    <div class="price">R$ 49,99<small>/mês</small></div>
+                    <div class="price-period">Válido até 11 de Junho de 2026 ou promoção válida por 3 meses.</div>
                     <ul>
                         <li><span class="material-icons-round">check_circle</span> Tudo do plano mensal</li>
                         <li><span class="material-icons-round">check_circle</span> Desconto vitalício de 50%</li>
@@ -1068,60 +1051,7 @@
     </footer>
 
     <script>
-        let isPromoActive = true;
 
-        // ===== COUNTDOWN TIMER 48H =====
-        function startCountdown() {
-            const STORAGE_KEY = 'metodo_pai_launch_end_v2';
-            let endTime = localStorage.getItem(STORAGE_KEY);
-
-            if (!endTime) {
-                // First visit: set 48h from now
-                const end = new Date();
-                end.setHours(end.getHours() + 48);
-                endTime = end.getTime().toString();
-                localStorage.setItem(STORAGE_KEY, endTime);
-            }
-
-            const target = parseInt(endTime);
-
-            function update() {
-                const now = Date.now();
-                const diff = target - now;
-
-                if (diff <= 0) {
-                    isPromoActive = false;
-                    document.getElementById('hours').textContent = '00';
-                    document.getElementById('minutes').textContent = '00';
-                    document.getElementById('seconds').textContent = '00';
-                    document.getElementById('countdown-container').querySelector('.countdown-label').textContent = '⏰ Oferta encerrada!';
-
-                    // Desabilita visualmente o botão de oferta
-                    const btnLancamento = document.querySelector('.price-card.featured .btn-cta');
-                    if (btnLancamento) {
-                        btnLancamento.textContent = 'OFERTA ENCERRADA';
-                        btnLancamento.style.background = '#555';
-                        btnLancamento.style.boxShadow = 'none';
-                        btnLancamento.style.cursor = 'not-allowed';
-                        btnLancamento.style.pointerEvents = 'none';
-                    }
-                    return;
-                }
-
-                const hours = Math.floor(diff / (1000 * 60 * 60));
-                const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-                const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-
-                document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
-                document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
-                document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
-            }
-
-            update();
-            setInterval(update, 1000);
-        }
-
-        startCountdown();
 
         // ===== FAQ TOGGLE =====
         function toggleFaq(btn) {
@@ -1131,15 +1061,10 @@
 
         // ===== STRIPE CHECKOUT =====
         function checkout(plan) {
-            if (plan === 'lancamento' && !isPromoActive) {
-                alert('Esta oferta promocional já foi encerrada. Por favor, escolha o Plano Mensal padrão.');
-                return;
-            }
-
             const APP_URL = 'https://app.metododopai.com';
             const links = {
-                'lancamento': 'https://buy.stripe.com/eVqeVffzF6s03ief41bo400',
-                'mensal_normal': 'https://buy.stripe.com/6oUbJ34V1cQocSO7Bzbo401',
+                'lancamento': 'https://buy.stripe.com/3cI7sNevB8A8dWScVTbo402',
+                'mensal_normal': 'https://buy.stripe.com/dRmaEZevB6s06uqaNLbo403',
             };
 
             const url = links[plan];
