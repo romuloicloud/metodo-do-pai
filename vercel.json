@@ -5,6 +5,23 @@
     "redirects": [
         {
             "source": "/",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "www.metododopai.com"
+                }
+            ],
+            "destination": "/landing/index.html",
+            "permanent": false
+        },
+        {
+            "source": "/",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "metododopai.com"
+                }
+            ],
             "destination": "/landing/index.html",
             "permanent": false
         }
