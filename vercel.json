@@ -4,6 +4,10 @@
     "framework": "vite",
     "rewrites": [
         {
+            "source": "/",
+            "destination": "/landing/index.html"
+        },
+        {
             "source": "/(.*)",
             "destination": "/index.html"
         }
