@@ -28,6 +28,14 @@
     ],
     "rewrites": [
         {
+            "source": "/pmerj",
+            "destination": "https://metododopai-pmerj-landing.vercel.app/"
+        },
+        {
+            "source": "/pmerj/:path*",
+            "destination": "https://metododopai-pmerj-landing.vercel.app/:path*"
+        },
+        {
             "source": "/(.*)",
             "destination": "/index.html"
         }
